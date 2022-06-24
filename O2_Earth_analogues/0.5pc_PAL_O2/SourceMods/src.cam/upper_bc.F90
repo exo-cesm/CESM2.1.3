@@ -44,6 +44,12 @@ module upper_bc
   integer            :: f_ndx, hf_ndx
   character(len=32)  :: tgcm_ubc_data_type = 'CYCLICAL'
 
+!G.Cooke 2020 code edit: create variables for indecies for O, O2, N, H, H2O,
+!CH4, H2
+  integer			 :: o_ndx, o2_ndx, n_ndx, h_ndx, h2o_ndx, ch4_ndx, h2_ndx
+  real(r8), parameter :: O2_scale_factor = 5.0e-3_r8
+!G.Cooke 2020 code edit end
+
   logical :: apply_upper_bc = .false.
 
 !================================================================================================
@@ -167,6 +173,15 @@ end subroutine ubc_setopts
 
     call cnst_get_ind('F', f_ndx, abort=.false.)
     call cnst_get_ind('HF', hf_ndx, abort=.false.)
+!G.Cooke 2020 code edit: query for indicies for O2, O, N, H, H2O, CH4, H2
+    call cnst_get_ind('O', o_ndx, abort=.false.)
+    call cnst_get_ind('O2', o2_ndx, abort=.false.)
+    call cnst_get_ind('N', n_ndx, abort=.false.)
+    call cnst_get_ind('H', h_ndx, abort=.false.)
+    call cnst_get_ind('H2O', h2o_ndx, abort=.false.)
+    call cnst_get_ind('CH4', ch4_ndx, abort=.false.)
+    call cnst_get_ind('H2', h2_ndx, abort=.false.)
+!G.Cooke 2020 code edit end
 
     zonal_avg     = .false.
 
@@ -363,7 +378,30 @@ end subroutine ubc_setopts
     endif
     if (hf_ndx .GT. 0) then
       ubc_mmr(:ncol, hf_ndx) = 1.0e-15_r8
+	endif
+!G.Cooke 2020 code edit: change O, O2, N, H, H2O, CH4 and H2 boundary conditions
+    if (o_ndx .GT. 0) then
+      ubc_mmr(:ncol, o_ndx) = ubc_mmr(:ncol, o_ndx)*O2_scale_factor
     endif
+    if (o2_ndx .GT. 0) then
+      ubc_mmr(:ncol, o2_ndx) = ubc_mmr(:ncol, o2_ndx)*O2_scale_factor*1.0e-3_r8
+    endif
+    if (n_ndx .GT. 0) then
+      ubc_mmr(:ncol, n_ndx) = ubc_mmr(:ncol, n_ndx)*1.2_r8
+    endif
+    if (h_ndx .GT. 0) then
+      ubc_mmr(:ncol, h_ndx) = ubc_mmr(:ncol, h_ndx)*0.7_r8
+    endif
+    if (h2o_ndx .GT. 0) then
+      ubc_mmr(:ncol, h2o_ndx) = ubc_mmr(:ncol, h2o_ndx)*1.0e-5_r8
+    endif
+    if (ch4_ndx .GT. 0) then
+      ubc_mmr(:ncol, ch4_ndx) = ubc_mmr(:ncol, ch4_ndx)*1.0e-12_r8
+    endif
+    if (h2_ndx .GT. 0) then
+      ubc_mmr(:ncol, h2_ndx) = ubc_mmr(:ncol, h2_ndx)*0.05_r8
+    endif
+!G.Cooke 2020 code edit end
 
     ! Zero out constituent ubc's that are not used.
     do m = 1, pcnst

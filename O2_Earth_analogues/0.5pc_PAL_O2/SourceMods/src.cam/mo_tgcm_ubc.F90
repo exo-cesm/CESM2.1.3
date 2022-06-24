@@ -135,7 +135,7 @@
         !--------------------------------------------------------------------
         !	... local variables
         !--------------------------------------------------------------------
-        real(r8), parameter ::  h2o_ubc_vmr = 2.e-8_r8            ! fixed ub h2o concentration (kg/kg)
+        real(r8), parameter ::  h2o_ubc_vmr = 1.e-17_r8            ! fixed ub h2o concentration (kg/kg)
         real(r8), parameter ::  ch4_ubc_vmr = 2.e-10_r8           ! fixed ub ch4 concentration (kg/kg)
 
         integer  :: m,n
