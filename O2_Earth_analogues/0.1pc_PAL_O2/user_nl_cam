@@ -1,0 +1,24 @@
+! Users should add all user specific namelist changes below in the form of 
+! namelist_var = new_namelist_value 
+fv_nsplit              =  16
+clubb_c14 = 2.200001D0
+rad_climate		= 'A:Q:H2O', 'A:O2:O2',
+         'A:CO2:CO2', 'A:O3:O3',
+         'A:N2O:N2O', 'A:CH4:CH4',
+         'N:CFC11STAR:CFC11', 'A:CFC12:CFC12',
+         'M:mam4_mode1:/glade/p/cesmdata/cseg/inputdata/atm/cam/physprops/mam4_mode1_rrtmg_aeronetdust_sig1.6_dgnh.48_c140304.nc', 'M:mam4_mode2:/glade/p/cesmdata/cseg/inputdata/atm/cam/physprops/mam4_mode2_rrtmg_aitkendust_c141106.nc',
+         'M:mam4_mode3:/glade/p/cesmdata/cseg/inputdata/atm/cam/physprops/mam4_mode3_rrtmg_aeronetdust_sig1.2_dgnl.40_c150219.nc', 'M:mam4_mode4:/glade/p/cesmdata/cseg/inputdata/atm/cam/physprops/mam4_mode4_rrtmg_c130628.nc'
+&chem_surfvals_nl
+ flbc_list       = 'CH3BR', 'CH3CL', 'CH4', 'O2',
+         'CO2', 'H2', 'N2O', 'OCS', 'CFC11','CFC12','CFC11eq'
+flbc_file = '/glade/scratch/gregcooke/LBC_files/LBC_0.001xO2.nc'
+/
+&qbo_nl
+ qbo_cyclic             = .false.
+ qbo_use_forcing                = .false.
+/
+&cam_history_nl
+ inithist = 'ENDOFRUN'
+/
+
+
