@@ -23,6 +23,7 @@ The simulations that have been performed are detailed in the table below:
 
 
 ## Fixed lower boundary modifications
+
 The lower boundary for O<sub>2</sub>  and CO<sub>2</sub> were scaled using the following example operations on the \*cam.r.\* (restart) file and the  \*cam.i.\* (initial condition)file for the pre-industrial atmosphere:
 
 ncap2 -O -s "CO2=CO2\*4.0" $infile $outfile #this multiplies the CO<sub>2</sub> field by 4
@@ -42,6 +43,7 @@ flbc_file = '/glade/scratch/gregcooke/LBC_files/LBC_0.001xO2.nc'
 
 
 ## Methane lower boundary
+
 Changes to methane were made in user_nl_cam by removing it from flbc_list and specifing it in an emissions file:
 
 &chem_inparm
@@ -54,6 +56,7 @@ flbc_list              = 'CCL4', 'CF2CLBR', 'CF3BR', 'CFC11', 'CFC113', 'CFC12',
 /
 
 ## Solar spectrum changes
+
 The standard solar spectrum in WACCM6 is SolarForcingCMIP6piControl_c160921.nc
 
 We modified this solar file by using the Evolution Of Solar Flux IDL code from https://depts.washington.edu/naivpl/content/models.
@@ -64,4 +67,6 @@ In the case directory, user_nl_cam was modified to include the new solar file fo
 solar_irrad_data_file = "/glade/u/home/gregcooke/SolarForcingCMIP6piControl_c160921_2.0Ga.nc"
 /
 
+## Location of restart files
 
+Restart files are currently located at /glade/scratch/gregcooke/restarts/ on the NCAR Cheyenne supercomputer.
