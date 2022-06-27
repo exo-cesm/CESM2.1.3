@@ -67,6 +67,10 @@ In the case directory, user_nl_cam was modified to include the new solar file fo
 solar_irrad_data_file = "/glade/u/home/gregcooke/SolarForcingCMIP6piControl_c160921_2.0Ga.nc"
 /
 
+## Publications
+
+Cooke GJ, Marsh DR, Walsh C, Black B, Lamarque J-F. 2022, A revised lower estimate of ozone columns during Earth’s oxygenated history. R. Soc. Open Sci. 9: 211165. https://doi.org/10.1098/rsos.211165
+
 ## Location of restart files
 
 Restart files are currently located at /glade/scratch/gregcooke/restarts/ on the NCAR Cheyenne supercomputer.
