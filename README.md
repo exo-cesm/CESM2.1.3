@@ -1,4 +1,5 @@
-# Code Modifications
+# Code modifications in CESM2.1.3 for exoplanet simulations and varied oxygen simulations
+
 This repository contains the code modifications necessary for simulating exoplanets with CESM2.1.3.
 
 It details how to set up simulations, why the changes were made, as well as problems that were encountered.
