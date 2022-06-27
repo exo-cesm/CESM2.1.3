@@ -6,7 +6,7 @@ Simulations between 1000 times less than the present atmospheric level (PAL) of 
 The simulations that have been performed are detailed in the table below:
 
 
-| Simulation name   | O_2 mixing ratio [PAL] | CH_4 lower boundary        | CO_2 lower boundary | Solar spectrum |
+| Simulation name   | O<sub>2</sub> mixing ratio [PAL] | CH_4 lower boundary        | CO_2 lower boundary | Solar spectrum |
 | ---------------   | ---------------------- | -------------------------- | ------------------- | -------------- |
 | Pre-industrial    | 1.000                  | Fixed at 0.8 ppmv          | Fixed at 280 ppmv   | Modern day Sun |
 | 150% PAL          | 1.500                  | Fixed at 0.8 ppmv          | Fixed at 280 ppmv   | Modern day Sun |
