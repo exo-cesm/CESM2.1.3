@@ -47,7 +47,7 @@ flbc_file = '/glade/scratch/gregcooke/LBC_files/LBC_0.001xO2.nc'
 Changes to methane were made in user_nl_cam by removing it from flbc_list and specifing it in an emissions file:
 
 &chem_inparm
-srf_emis_specifier = 'CH4 -> /glade/scratch/gregcooke/LBC_files/CH4_emissions.nc'
+srf_emis_specifier = 'CH4 -> /glade/scratch/gregcooke/LBC_files/CH4_1_PD_emissions.nc'
 /
 &chem_surfvals_nl
 flbc_list              = 'CCL4', 'CF2CLBR', 'CF3BR', 'CFC11', 'CFC113', 'CFC12', 'CH3BR', 'CH3CCL3', 'CH3CL',
