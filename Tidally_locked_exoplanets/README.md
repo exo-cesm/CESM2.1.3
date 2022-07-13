@@ -13,9 +13,9 @@ The simulations that have been performed are detailed in the table below:
 
 ## Changing the stellar spectrum
 
-We used the SWIM code [SWIM](https://github.com/jack-eddy-symposium/exoplanetary-impact/tree/main/SWIM) to change the stellar spectrum and rescale it to specific exoplanets.
+We used the [SWIM](https://github.com/jack-eddy-symposium/exoplanetary-impact/tree/main/SWIM) code to change the stellar spectrum and rescale it to specific exoplanets.
 
-## Initial conditions and getting throuhh model crashes
+## Initial conditions and getting through model crashes
 
 ## Location of restart files
 
