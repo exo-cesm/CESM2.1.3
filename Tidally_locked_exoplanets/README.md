@@ -5,7 +5,7 @@ In each case, the obliquity and eccentricty in the model have been set to 0, and
 
 The simulations that have been performed are detailed in the table below:
 
-| Simulation name | Stellar spectrum used   | Total irradiance [Wm<sub>-3</sub>] | Sub stellar point                    | 
+| Simulation name | Stellar spectrum used   | Total irradiance [Wm<sup>-3</sup>] | Sub stellar point                    | 
 | --------------- | ----------------------- | ---------------------------------- | ------------------------------------ |
 | x name          | x spectrum [cite source]| x                                  | 180&deg;  longitude (Pacific ocean) |
 | x name          | x spectrum [cite source]| x                                  | 30&deg; longitude (Africa) |
@@ -13,7 +13,7 @@ The simulations that have been performed are detailed in the table below:
 
 ## Changing the stellar spectrum
 
-We used the SWIM code [https://github.com/jack-eddy-symposium/exoplanetary-impact/tree/main/SWIM](SWIM]) to change the stellar spectrum and rescale it to specific exoplanets.
+We used the SWIM code [SWIM](https://github.com/jack-eddy-symposium/exoplanetary-impact/tree/main/SWIM) to change the stellar spectrum and rescale it to specific exoplanets.
 
 ## Initial conditions and getting throuhh model crashes
 
