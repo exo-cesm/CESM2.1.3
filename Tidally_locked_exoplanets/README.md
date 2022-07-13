@@ -7,8 +7,8 @@ The simulations that have been performed are detailed in the table below:
 
 | Simulation name | Stellar spectrum used   | Total irradiance [Wm<sub>-3</sub>] | Sub stellar point                    | 
 | --------------- | ----------------------- | ---------------------------------- | ------------------------------------ |
-| x name          | x spectrum [cite source]| x                                  | 180 &#8451 longitude (Pacific ocean) |
-| x name          | x spectrum [cite source]| x                                  | 30 &#8451 longitude (Africa) |
+| x name          | x spectrum [cite source]| x                                  | 180&deg;  longitude (Pacific ocean) |
+| x name          | x spectrum [cite source]| x                                  | 30&deg; longitude (Africa) |
 
 
 ## Changing the stellar spectrum
