@@ -1,0 +1,22 @@
+# Tidally locked case decriptions
+Tidally lokced exoplanets are exoplanets that synchronously rotate around their host star, meaning their orbital period is the same as their rotational period. This is even expected to happen to potentially habiatble exoplanets around M dwarf stars and some K dwarf stars. These exoplanets are epected to have a zero (or near zero) orbital eccentrity and obliquity (axial tilt).
+
+In each case, the obliquity and eccentricty in the model have been set to 0, and the solar zenith angles have been fixed so that the star is fixed in the sky. 
+
+The simulations that have been performed are detailed in the table below:
+
+| Simulation name | Stellar spectrum used   | Total irradiance [Wm<sub>-3</sub>] | Sub stellar point                    | 
+| --------------- | ----------------------- | ---------------------------------- | ------------------------------------ |
+| x name          | x spectrum [cite source]| x                                  | 180 &#8451 longitude (Pacific ocean) |
+| x name          | x spectrum [cite source]| x                                  | 30 &#8451 longitude (Africa) |
+
+
+## Changing the stellar spectrum
+
+We used the SWIM code [https://github.com/jack-eddy-symposium/exoplanetary-impact/tree/main/SWIM](SWIM]) to change the stellar spectrum and rescale it to specific exoplanets.
+
+## Initial conditions and getting throuhh model crashes
+
+## Location of restart files
+
+Restart files are currently located on ARC4, the supercomputer at the University of Leeds.
