@@ -1,0 +1,12 @@
+format: jb-book
+root: index
+parts:
+- caption: Oxygenated Earth analogues
+  chapters:
+  - file: O2_Earth_analogues/README.md
+- caption: Tidally locked exoplanets
+  chapters:
+  - file: Tidally_locked_exoplanets/README.md
+
+
+
