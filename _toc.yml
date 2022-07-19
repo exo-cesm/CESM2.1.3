@@ -1,6 +1,10 @@
 format: jb-book
 root: index
 parts:
+
+- caption: Oxygenated Earth analogues
+  chapters:
+  - file: README.md
 - caption: Oxygenated Earth analogues
   chapters:
   - file: O2_Earth_analogues/README.md
