@@ -1,12 +1,7 @@
 format: jb-book
 root: index
 parts:
-- caption: Oxygenated Earth analogues
+- caption: SWIM code
   chapters:
-  - file: O2_Earth_analogues/README.md
-- caption: Tidally locked exoplanets
-  chapters:
-  - file: Tidally_locked_exoplanets/README.md
-
-
-
+  - file: SWIM/User_guide.md
+  - file: SWIM/Stellar_Wind_and_Irradiance_Module.ipynb
