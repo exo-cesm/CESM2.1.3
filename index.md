@@ -1,9 +1,6 @@
-# (Exo)Planetary Atmosphere
-## The Impact of Stars and Solar Physics on Habitability and Life
+# Modifications to siulations exoplanets and paleoclimates
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
-
-This is the repository for projects in the "(Exo)Planetary Atmosphere: the Impact of Stars and Solar Physics on Habitability and Life" for the 3rd Jack Eddy Symposium ([https://cpaess.ucar.edu/meetings/eddy-symposium-2022](https://cpaess.ucar.edu/meetings/eddy-symposium-2022)) which took place between the 6<sup>th</sup> and 10<sup>th</sup> June 2022. 
 
 This repository contains the code modifications necessary for simulating exoplanets with CESM2.1.3.
 
