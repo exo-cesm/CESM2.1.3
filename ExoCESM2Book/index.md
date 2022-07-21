@@ -1,14 +1,15 @@
-# Modifications to siulations exoplanets and paleoclimates
+# (Exo)Planetary Atmosphere
+## The Impact of Stars and Solar Physics on Habitability and Life
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-This repository contains the code modifications necessary for simulating exoplanets with CESM2.1.3.
+This is the repository for projects in the "(Exo)Planetary Atmosphere: the Impact of Stars and Solar Physics on Habitability and Life" for the 3rd Jack Eddy Symposium ([https://cpaess.ucar.edu/meetings/eddy-symposium-2022](https://cpaess.ucar.edu/meetings/eddy-symposium-2022)) which took place between the 6<sup>th</sup> and 10<sup>th</sup> June 2022. 
 
-It details how to set up simulations, why the changes were made, as well as problems that were encountered.
+It is a place for scripts, issues, discussions, and resources related to those projects.
 
-Namelist file changes, boundary conditions, solar spectra input files, and source code modifications will be given.
+On the left sidebar, you can see both summaries of team discussions as well as code that was developed as part of the symposium.
 
-The location of restarts directories will also be given.
+Details and instructions regarding the Stellar Wind and Iradiance Module (SWIM) code can be found in the SWIM directory.
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
