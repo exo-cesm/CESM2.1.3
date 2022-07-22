@@ -3,4 +3,4 @@ root: index
 parts:
 - caption: O2
   chapters:
-  - file: ../O2_Earth_analogues/README.md
+  - file: O2_Earth_analogues/README.md
