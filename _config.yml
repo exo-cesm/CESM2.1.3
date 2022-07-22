@@ -5,8 +5,8 @@
 
 #######################################################################################
 # Book settings
-title                       : "(Exo)Planetary Atmosphere: the Impact of Stars and Solar Physics on Habitability and Life" # The title of the book. Will be placed in the left navbar.
-author                      : Greg Cooke, Dan Marsh. Book originally made by Fernando Pérez. # The author of the book
+title                       : "ExoCESM2" # The title of the book. Will be placed in the left navbar.
+author                      : Greg Cooke and Dan Marsh.  # The author of the book
 copyright                   : "2022"  # Copyright year to be placed in the footer
 logo                        : logo.png  # A path to the book logo
 
