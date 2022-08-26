@@ -28,18 +28,18 @@ The standard globally averaged lower boundary conditions are given in the follow
 
 | Chemical | Mixing ratio |
 | -------- | ------------ |
-| CCL4 | 2.50e-14 |
-| CF2CLBR | 4.45e-15 |
+| CCL<sub>4</sub> | 2.50e-14 |
+| CF<sub>2</sub>CLBR | 4.45e-15 |
 | CFC11eq | 3.21e-11 |
-| CH2BR2 | 1.20e-12 |
-| CH3BR | 5.30e-12 |
-| CH3CL | 4.57e-10 |
-| CH4 | 8.08e-07 |
-| CHBR3 | 1.20e-12 |
-| CO2 | 0.000284 |
-| H2 | 5.00e-07 |
+| CH<sub>2</sub>BR<sub>2</sub> | 1.20e-12 |
+| CH<sub>3</sub>BR | 5.30e-12 |
+| CH<sub>3</sub>CL | 4.57e-10 |
+| CH<sub>4</sub> | 8.08e-07 |
+| CHBR<sub>3</sub> | 1.20e-12 |
+| CO<sub>2</sub> | 0.000284 |
+| H<sub>2</sub> | 5.00e-07 |
 | OCS | 3.37e-10 |
-| N2O | 2.73e-07 |
+| N<sub>2</sub>O | 2.73e-07 |
 | Total BROY | 1.13e-11 |
 | Total CLOY | 4.57e-10 |
 | Total FOY | 8.89e-15 |
