@@ -24,7 +24,27 @@ The simulations that have been performed are detailed in the table below:
 
 ## Fixed lower boundary modifications
 
-The lower boundary for O<sub>2</sub>  and CO<sub>2</sub> were scaled using the following example operations on the \*cam.r.\* (restart) file and the  \*cam.i.\* (initial condition)file for the pre-industrial atmosphere:
+The standard globally averaged lower boundary conditions are given in the following table:
+
+| Chemical | Mixing ratio |
+| CCL4 | 2.50e-14 |
+| CF2CLBR | 4.45e-15 |
+| CFC11eq | 3.21e-11 |
+| CH2BR2 | 1.20e-12 |
+| CH3BR | 5.30e-12 |
+| CH3CL | 4.57e-10 |
+| CH4 | 8.08e-07 |
+| CHBR3 | 1.20e-12 |
+| CO2 | 0.000284 |
+| H2 | 5.00e-07 |
+| OCS | 3.37e-10 |
+| N2O | 2.73e-07 |
+| Total BROY | 1.13e-11 |
+| Total CLOY | 4.57e-10 |
+| Total FOY | 8.89e-15 |
+
+
+Boundary conditions can be cahnged. For example, the lower boundary for O<sub>2</sub>  and CO<sub>2</sub> were scaled using the following example operations on the \*cam.r.\* (restart) file and the  \*cam.i.\* (initial condition)file for the pre-industrial atmosphere:
 
 ncap2 -O -s "CO2=CO2\*4.0" $infile $outfile #this multiplies the CO<sub>2</sub> field by 4
 ncap2 -O -s "O2=O2\*0.1" $infile $outfile #this multiplies the O<sub>2</sub> field by 0.1
