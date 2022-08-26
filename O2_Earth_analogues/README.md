@@ -27,6 +27,7 @@ The simulations that have been performed are detailed in the table below:
 The standard globally averaged lower boundary conditions are given in the following table:
 
 | Chemical | Mixing ratio |
+| -------- | ------------ |
 | CCL4 | 2.50e-14 |
 | CF2CLBR | 4.45e-15 |
 | CFC11eq | 3.21e-11 |
