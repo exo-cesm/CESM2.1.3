@@ -1,5 +1,12 @@
 # 1% PAL case setup instructions
 
+## If starting from a restart:
+
+Ensure that the following modified files are placed in SourceMods/src.cam/:
+chemistry.F90; mo_tgcm_ubc.F90; upper_bc.F90; mo_jshort.F90; mo_photo.F90
+
+## If starting from scratch:
+
 The resolution used was 2.5 by 1.875 degrees (f19_g17)
 
 Example case setup command:
