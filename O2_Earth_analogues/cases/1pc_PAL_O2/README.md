@@ -10,5 +10,4 @@ The case should be run out for 5 days. Then, the surface mixing ratio of O<sub>2
 ncap2 -O -s "O2=O2\*0.01" $infile $outfile
 
 Ensure that the following modified files are placed in SourceMods/src.cam/:
-chemistry.F90; mo_tgcm_ubc.F90; upper_bc.F90
-
+chemistry.F90; mo_tgcm_ubc.F90; upper_bc.F90; mo_jshort.F90; mo_photo.F90

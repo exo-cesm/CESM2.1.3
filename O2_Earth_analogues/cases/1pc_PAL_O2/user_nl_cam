@@ -1,0 +1,18 @@
+! Users should add all user specific namelist changes below in the form of 
+! namelist_var = new_namelist_value 
+&cam_history_nl
+ avgflag_pertape                = 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'I'
+ fincl2         = 'T','PS','O3', 'O2', 'O', 'usr_O_O', 'usr_O_O2', 'O1D', 'OH', 'jo2_a', 'jo2_b', 'jo3_a', 'jo3_b',
+                  'H2O', 'jh2o_a', 'jh2o_b','jh2o_c','jch4_a', 'jch4_b','CH4','SZA', 'CL_O3', 'BR_O3', 'H_O3', 'OH_O3',
+                  'HO2_O3', 'NO2_O3', 'NO_O3', 'H2O_CHML', 'O3_CHML', 'CH4_CHML', 'CH3CL_CHML', 'N2O_CHML', 'BR', 'CL', 'H', 'HO2',
+                  'NO2', 'NO','HOX','N2O'
+
+ mfilt          =              1,  1, 1, 1, 1, 1, 1,  1,  1
+ nhtfrq         =             0, 0,  -12,  -120,  -240,   -480, -480,-480,-480
+/
+&chem_inparm
+xs_short_file		= '/nobackup/pygjc/physics/cross_sections/output/xs_short_jpl10_c221026.nc'
+/
+&chem_surfvals_nl
+ flbc_file              = '/nobackup/pygjc/LBC_files/O2_forcing_1pc_o2.nc'
+/
