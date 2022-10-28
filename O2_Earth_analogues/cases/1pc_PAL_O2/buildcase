@@ -3,9 +3,9 @@
 module use /nobackup/CESM/module_env
 module load cesm
 
-MY_CASE=FW2010climo.f09_f09_mg17.02
+MY_CASE=b.e21.BWma1850.f19_g17.1pc_o2.my_case.001
 
-$CIMEROOT/scripts/create_clone --case $HOME/cesm_prep/$MY_CASE --compset FW2010climo --res f09_f09_mg17
+$CIMEROOT/scripts/create_newcase --case $HOME/cesm_prep/$MY_CASE --compset BWma1850 --res f19_g17 --run-unsupported
 
 cd $HOME/cesm_prep/$MY_CASE
 
@@ -15,30 +15,22 @@ cd $HOME/cesm_prep/$MY_CASE
 ./xmlchange RUN_REFDATE=0030-09-06
 ./xmlchange NTASKS=-1
 ./xmlchange JOB_WALLCLOCK_TIME="0:20:00"
-./xmlchange STOP_OPTION="nhours"
+./xmlchange STOP_OPTION="ndays"
 ./xmlchange STOP_N=1
+./xmlchange REST_OPTION="ndays"
+./xmlchange REST_N=1
 ./xmlchange --force JOB_QUEUE=planet.q
 ./xmlchange PROJECT=planet
-./xmlchange DOUT_S=FALSE
 ./case.setup
+
+RESTART=/nobackup/Alternative_Earths/restarts/One_pc_O2/Cooke_et_al_2022/
+USER_NL_CAM=/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/O2_Earth_analogues/cases/user_nl_cam
+SrcMods=/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/O2_Earth_analogues/cases/1pc_PAL_O2/SourceMods/src.cam/
+cp $SrcMods/chemistry.F90  $SrcMods/mo_jshort.F90  $SrcMods/mo_photo.F90  SourceMods/src.cam/ 
+cp $SrcMods/mo_tgcm_ubc.F90  $SrcMods/upper_bc.F90  SourceMods/src.cam/
+cp $RESTART/* /nobackup/$USER/cesm_sims/$MY_CASE/run/
+cp $USER_NL_CAM .
+
 ./preview_run
-./check_input_data 
-./case.build
-echo "empty_htapes = .true." > user_nl_cam
-echo "fincl1 = 'T', 'U', 'V'" >> user_nl_cam
-echo "fincl2 = 'T'" >> user_nl_cam
-echo "fincl3 = ' '" >> user_nl_cam
-echo "fincl7 = ' '" >> user_nl_cam
-echo "fincl8 = ' '" >> user_nl_cam
-echo "nhtfrq = 0, 1, -6, -3, -1, 1, -24, -120, -240" >> user_nl_cam
-echo "avgflag_pertape = 'A', 'I', 'A', 'A', 'A', 'A', 'A', 'A', 'I'" >> user_nl_cam
-echo "do_circulation_diags = .false." >> user_nl_cam
-echo "&chem_inparm" >> user_nl_cam
-echo "xs_short_file           = '/nobackup/pygjc/physics/cross_sections/output/xs_short_jpl10_c221026.nc'" >> user_nl_cam
-echo "/" >> user_nl_cam
-echo "&chem_surfvals_nl" >> user_nl_cam
-echo " flbc_file              = '/nobackup/pygjc/LBC_files/O2_forcing_1pc_o2.nc'" >> user_nl_cam
-echo "/" >> user_nl_cam
-cp chemistry.F90  mo_jshort.F90  mo_photo.F90  mo_tgcm_ubc.F90  upper_bc.F90  SourceMods/src.cam/
 ./preview_namelists
 ./check_input_data
