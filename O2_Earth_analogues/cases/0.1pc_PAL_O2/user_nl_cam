@@ -14,5 +14,5 @@
 xs_short_file		= '/nobackup/pygjc/physics/cross_sections/output/xs_short_jpl10_c221026.nc'
 /
 &chem_surfvals_nl
- flbc_file              = '/nobackup/pygjc/LBC_files/O2_forcing_0.1pc_o2.nc'
+ flbc_file              = '/nobackup/Alternative_Earths/LBC_files/O2_forcing_0.1pc_o2.nc'
 /

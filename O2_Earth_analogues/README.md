@@ -21,6 +21,11 @@ The simulations that have been performed are detailed in the table below:
 | 1% PAL YS         | 0.010                  | Fixed at 0.8 ppmv          | Fixed at 280 ppmv   | 2 Ga Sun        |
 | 1% PAL YS 4xCO2   | 0.010                  | Fixed at 0.8 ppmv          | Fixed at 1120 ppmv  | 2 Ga Sun        |
 
+## Branching from run restarts
+
+Currently, the restart files are stored on ARC4 at /nobackup/Alternative_Earths/restarts/. Permanent storage will be in place eventually.
+
+To branch from one of these restart files, you can do it manually, or use the buildcase scripts in each case folder. 
 
 ## Fixed lower boundary modifications
 
