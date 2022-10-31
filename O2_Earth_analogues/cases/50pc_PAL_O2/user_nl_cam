@@ -11,5 +11,5 @@
  nhtfrq         =             0, 0,  -12,  -120,  -240,   -480, -480,-480,-480
 /
 &chem_inparm
-xs_short_file		= '/nobackup/pygjc/physics/cross_sections/output/xs_short_jpl10_c221026.nc'
+xs_short_file		= '/nobackup/Alternative_Earths/cross_sections/xs_short_jpl10_c221026.nc'
 /

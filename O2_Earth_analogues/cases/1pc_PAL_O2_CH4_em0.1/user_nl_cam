@@ -1,7 +1,7 @@
 ! Users should add all user specific namelist changes below in the form of
 ! namelist_var = new_namelist_value
 &chem_inparm
-srf_emis_specifier = 'CH4 -> /glade/scratch/gregcooke/LBC_files/CH4_0.1_PD_emissions.nc'
+srf_emis_specifier = 'CH4 -> /nobackup/Alternative_Earths/LBC_files/CH4_0.1_PD_emissions.nc'
 /
 &chem_surfvals_nl
 flbc_list              = 'CCL4', 'CF2CLBR', 'CF3BR', 'CFC11', 'CFC113', 'CFC12', 'CH3BR', 'CH3CCL3', 'CH3CL',
