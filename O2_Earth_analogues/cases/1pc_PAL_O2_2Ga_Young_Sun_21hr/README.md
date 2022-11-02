@@ -1,4 +1,23 @@
-# 1% PAL 2Ga YS case setup instructions
+# 1% PAL 2Ga YS with 21 hr rotation rate case setup instructions
+
+# 1% PAL case setup instructions
+
+## If setting the case up on ARC4:
+
+run buildcase\_1pc\_O2\_2Ga\_YS\_21hr\_ARC4. A case will be created with the name . Change the name in buildcase\_1pc\_O2\_2Ga\_YS\_21hr\_ARC4 if you would like a different case name.
+
+A case will be created and the project will be planet with the job queue planet.q. If switching to the main queue, in the case directory, ./xmlchange the project to be blank (no input) and the job queue to be 40core-192G.q.
+
+
+
+A user\_nl\_cam example will be copied in to the case directory.
+
+The following modified files will be placed in SourceMods/src.cam/:
+chemistry.F90; mo\_tgcm\_ubc.F90; upper\_bc.F90; mo\_jshort.F90; mo\_photo.F90
+
+These source mods are important for modifying the upper boundary conditions, and for updating the absorption in the Schumann-Runge bands.
+
+## If setting the case from scratch
 
 The resolution used was 2.5 by 1.875 degrees (f19_g17)
 

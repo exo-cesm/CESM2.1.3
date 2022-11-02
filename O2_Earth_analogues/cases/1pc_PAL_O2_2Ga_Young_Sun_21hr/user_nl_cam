@@ -19,4 +19,8 @@ xs_short_file           = '/nobackup/Alternative_Earths/cross_sections/xs_short_
 &solar_data_opts
 solar_irrad_data_file = "/nobackup/Alternative_Earths/stellar_files/SolarForcingCMIP6piControl_c160921_2.0Ga.nc"
 /
+&physconst_nl
+omega = 0.000083110916762
+sday = 75600
+/
 

@@ -1,0 +1,42 @@
+2020-10-08 23:10:50: ./create_newcase --compset BWma1850 --res f19_g17 --case /home/home02/pygjc/cesm2/cases/b.e21.BWma1850.f19_g17.1pc_o2.YoungSun.4xCO2.002 --run-unsupported
+ ---------------------------------------------------
+2020-10-08 23:10:50: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
+ ---------------------------------------------------
+2020-10-08 23:10:50: Compset specification file is /home/home01/phydrm/cesm2/release_cesm2_1_3/cime_config/config_compsets.xml
+ ---------------------------------------------------
+2020-10-08 23:10:50: Pes     specification file is /home/home01/phydrm/cesm2/release_cesm2_1_3/cime_config/config_pes.xml
+ ---------------------------------------------------
+2020-10-08 23:10:50: Forcing is 1850
+ ---------------------------------------------------
+2020-10-08 23:10:50: Using None coupler instances
+ ---------------------------------------------------
+2020-10-08 23:10:50: Component ATM is CAM cam6 physics:WACCM with middle atmosphere chemistry:
+ ---------------------------------------------------
+2020-10-08 23:10:50: ATM_GRID is 1.9x2.5
+ ---------------------------------------------------
+2020-10-08 23:10:50: Component LND is clm5.0:BGC (vert. resol. CN and methane) with prognostic crop:
+ ---------------------------------------------------
+2020-10-08 23:10:50: LND_GRID is 1.9x2.5
+ ---------------------------------------------------
+2020-10-08 23:10:50: Component ICE is Sea ICE (cice) model version 5
+ ---------------------------------------------------
+2020-10-08 23:10:50: ICE_GRID is gx1v7
+ ---------------------------------------------------
+2020-10-08 23:10:50: Component OCN is POP2 EcosystemNitrogen Deposition from Coupler
+ ---------------------------------------------------
+2020-10-08 23:10:50: OCN_GRID is gx1v7
+ ---------------------------------------------------
+2020-10-08 23:10:50: Component ROF is MOSART: MOdel for Scale Adaptive River Transport
+ ---------------------------------------------------
+2020-10-08 23:10:50: ROF_GRID is r05
+ ---------------------------------------------------
+2020-10-08 23:10:50: Component GLC is cism2 (default, higher-order, can run in parallel):cism ice evolution turned off (this is the standard configuration unless you're explicitly interested in ice evolution):
+ ---------------------------------------------------
+2020-10-08 23:10:50: GLC_GRID is gland4
+ ---------------------------------------------------
+2020-10-08 23:10:50: Component WAV is Wave Watch
+ ---------------------------------------------------
+2020-10-08 23:10:50: WAV_GRID is ww3a
+ ---------------------------------------------------
+2020-10-08 23:10:50: ESP_GRID is None
+ ---------------------------------------------------

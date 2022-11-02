@@ -1,0 +1,30 @@
+#!/usr/bin/bash
+
+module use /nobackup/CESM/module_env
+module load cesm
+
+MY_CASE=b.e21.BWma1850.f19_g17.baseline.my_case.001
+
+$CIMEROOT/scripts/create_newcase --case $HOME/cesm_prep/$MY_CASE --compset BWma1850 --res f19_g17 --run-unsupported
+
+cd $HOME/cesm_prep/$MY_CASE
+
+./xmlchange RUN_TYPE=startup
+./xmlchange NTASKS=-1
+./xmlchange JOB_WALLCLOCK_TIME="0:20:00"
+./xmlchange STOP_OPTION="ndays"
+./xmlchange STOP_N=1
+./xmlchange REST_OPTION="ndays"
+./xmlchange REST_N=1
+./xmlchange --force JOB_QUEUE=planet.q
+./xmlchange PROJECT=planet
+./case.setup
+
+USER_NL_CAM=/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/O2_Earth_analogues/cases/PI_baseline/user_nl_cam
+SrcMods=/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/O2_Earth_analogues/cases/PI_baseline/SourceMods/src.cam/
+cp $SrcMods/mo_jshort.F90  $SrcMods/mo_photo.F90  SourceMods/src.cam/ 
+cp $USER_NL_CAM .
+
+./preview_run
+./preview_namelists
+./check_input_data

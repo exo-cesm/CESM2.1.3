@@ -1,0 +1,72 @@
+2021-04-12 10:22:01: ./create_clone --clone /home/home02/pygjc/cesm2/cases/b.e21.BWma1850.f19_g17.1pc_o2.21hr.002 --case /home/home02/pygjc/cesm2/cases/b.e21.BWma1850.f19_g17.1pc_o2.21hr.003 --cime-output-root /nobackup/pygjc/cesm2/cases/
+ ---------------------------------------------------
+2021-04-12 10:22:01: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
+ ---------------------------------------------------
+2021-04-12 10:22:01: Compset specification file is /home/home01/phydrm/cesm2/release_cesm2_1_3/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2021-04-12 10:22:01: Pes     specification file is /home/home01/phydrm/cesm2/release_cesm2_1_3/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2021-04-07 12:26:31: ./create_clone --clone /home/home02/pygjc/cesm2/cases/b.e21.BWma1850.f19_g17.1pc_o2.21hr.001 --case /home/home02/pygjc/cesm2/cases/b.e21.BWma1850.f19_g17.1pc_o2.21hr.002 --cime-output-root /nobackup/pygjc/cesm2/cases/
+ ---------------------------------------------------
+2021-04-07 12:26:31: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
+ ---------------------------------------------------
+2021-04-07 12:26:31: Compset specification file is /home/home01/phydrm/cesm2/release_cesm2_1_3/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2021-04-07 12:26:31: Pes     specification file is /home/home01/phydrm/cesm2/release_cesm2_1_3/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2021-03-30 20:01:17: ./create_clone --clone /home/home02/pygjc/cesm2/cases/b.e21.BWma1850.f19_g17.1pc_o2 --case /home/home02/pygjc/cesm2/cases/b.e21.BWma1850.f19_g17.1pc_o2.21hr.001 --cime-output-root /nobackup/pygjc/cesm2/cases/
+ ---------------------------------------------------
+2021-03-30 20:01:17: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
+ ---------------------------------------------------
+2021-03-30 20:01:17: Compset specification file is /home/home01/phydrm/cesm2/release_cesm2_1_3/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2021-03-30 20:01:17: Pes     specification file is /home/home01/phydrm/cesm2/release_cesm2_1_3/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2020-08-25 23:26:48: ./create_newcase --compset BWma1850 --res f19_g17 --case /home/home02/pygjc/cesm2/cases/b.e21.BWma1850.f19_g17.1pc_o2 --run-unsupported
+ ---------------------------------------------------
+2020-08-25 23:26:48: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
+ ---------------------------------------------------
+2020-08-25 23:26:48: Compset specification file is /home/home01/phydrm/cesm2/release_cesm2_1_3/cime_config/config_compsets.xml
+ ---------------------------------------------------
+2020-08-25 23:26:48: Pes     specification file is /home/home01/phydrm/cesm2/release_cesm2_1_3/cime_config/config_pes.xml
+ ---------------------------------------------------
+2020-08-25 23:26:48: Forcing is 1850
+ ---------------------------------------------------
+2020-08-25 23:26:48: Using None coupler instances
+ ---------------------------------------------------
+2020-08-25 23:26:48: Component ATM is CAM cam6 physics:WACCM with middle atmosphere chemistry:
+ ---------------------------------------------------
+2020-08-25 23:26:48: ATM_GRID is 1.9x2.5
+ ---------------------------------------------------
+2020-08-25 23:26:48: Component LND is clm5.0:BGC (vert. resol. CN and methane) with prognostic crop:
+ ---------------------------------------------------
+2020-08-25 23:26:48: LND_GRID is 1.9x2.5
+ ---------------------------------------------------
+2020-08-25 23:26:48: Component ICE is Sea ICE (cice) model version 5
+ ---------------------------------------------------
+2020-08-25 23:26:48: ICE_GRID is gx1v7
+ ---------------------------------------------------
+2020-08-25 23:26:48: Component OCN is POP2 EcosystemNitrogen Deposition from Coupler
+ ---------------------------------------------------
+2020-08-25 23:26:48: OCN_GRID is gx1v7
+ ---------------------------------------------------
+2020-08-25 23:26:48: Component ROF is MOSART: MOdel for Scale Adaptive River Transport
+ ---------------------------------------------------
+2020-08-25 23:26:48: ROF_GRID is r05
+ ---------------------------------------------------
+2020-08-25 23:26:48: Component GLC is cism2 (default, higher-order, can run in parallel):cism ice evolution turned off (this is the standard configuration unless you're explicitly interested in ice evolution):
+ ---------------------------------------------------
+2020-08-25 23:26:48: GLC_GRID is gland4
+ ---------------------------------------------------
+2020-08-25 23:26:48: Component WAV is Wave Watch
+ ---------------------------------------------------
+2020-08-25 23:26:48: WAV_GRID is ww3a
+ ---------------------------------------------------
+2020-08-25 23:26:48: ESP_GRID is None
+ ---------------------------------------------------
