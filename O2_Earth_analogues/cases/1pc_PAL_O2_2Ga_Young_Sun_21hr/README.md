@@ -1,6 +1,4 @@
-# 1% PAL 2Ga YS with 21 hr rotation rate case setup instructions
-
-# 1% PAL case setup instructions
+# 1% PAL Young Sun (2Ga) with 21 hr rotation rate case setup instructions
 
 ## If setting the case up on ARC4:
 
