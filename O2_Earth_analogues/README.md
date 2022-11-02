@@ -1,4 +1,7 @@
 # O<sub>2</sub> analogues case descriptions
+
+The following simulations were used in [Cooke et al. 2022](https://doi.org/10.1098/rsos.211165).
+
 We define O<sub>2</sub> analogues as Earth-like planets that have an oxygenated atmosphere. Simulations between 1000 times less than the present atmospheric level (PAL) of oxygen (the present atmospheric level of O<sub>2</sub> is 21% by volume) and up to 1.5 times PAL are included in this definition.
 
 The simulations that have been performed are detailed in the table below:
@@ -13,8 +16,6 @@ The simulations that have been performed are detailed in the table below:
 | 1% PAL            | 0.010                  | Fixed at 0.8 ppmv          | Fixed at 280 ppmv   | Modern day Sun  |
 | 0.5% PAL          | 0.005                  | Fixed at 0.8 ppmv          | Fixed at 280 ppmv   | Modern day Sun  |
 | 0.1% PAL          | 0.001                  | Fixed at 0.8 ppmv          | Fixed at 280 ppmv   | Modern day Sun  |
-| 10% PAL CH4 em1   | 0.100                  | Flux of 1x PD emissions    | Fixed at 280 ppmv   | Modern day Sun  |
-| 10% PAL CH4 em0.1 | 0.100                  | Flux of 0.1x PD emissions  | Fixed at 280 ppmv   | Modern day Sun  |
 | 1% PAL CH4 em10   | 0.010                  | Flux of 10x PD emissions   | Fixed at 280 ppmv   | Modern day Sun  |
 | 1% PAL CH4 em1    | 0.010                  | Flux of 1x PD emissions    | Fixed at 280 ppmv   | Modern day Sun  |
 | 1% PAL CH4 em0.1  | 0.010                  | Flux of 0.1x PD emissions  | Fixed at 280 ppmv   | Modern day Sun  |
@@ -67,7 +68,6 @@ For O<sub>2</sub> flbc_modifications in user_nl_cam:
 flbc_file = '/glade/scratch/gregcooke/LBC_files/LBC_0.001xO2.nc'
 /
 
-
 ## Methane lower boundary
 
 Changes to methane were made in user_nl_cam by removing it from flbc_list and specifing it in an emissions file:
@@ -100,3 +100,19 @@ Cooke GJ, Marsh DR, Walsh C, Black B, Lamarque J-F. 2022, A revised lower estima
 ## Location of restart files
 
 Restart files are currently located at /glade/scratch/gregcooke/restarts/ on the NCAR Cheyenne supercomputer.
+
+## Since [Cooke et al. 2022a](https://doi.org/10.1098/rsos.211165), additional simulations have been perfomed
+
+Perturbations have been tested on the 10% PAL and 1% PAL simulations:
+
+| Simulation name   | O<sub>2</sub> mixing ratio [PAL] | CH<sub>4</sub> lower boundary        | CO<sub>2</sub> lower boundary | Solar spectrum |
+| ---------------   | ---------------------- | -------------------------- | ------------------- | -------------- |
+| 10% PAL CH4 em1   | 0.100                  | Flux of 1x PD emissions    | Fixed at 280 ppmv   | Modern day Sun  |
+| 10% PAL CH4 em0.1 | 0.100                  | Flux of 0.1x PD emissions  | Fixed at 280 ppmv   | Modern day Sun  |
+
+Furthermore, absorption from CO<sub>2</sub> and H<sub>2</sub>O have been included in the Schumann-Runge bands, and cross sections have been updated. The following simulations have been performed as tests with the new physics included:
+
+| Simulation name   | O<sub>2</sub> mixing ratio [PAL] | CH<sub>4</sub> lower boundary        | CO<sub>2</sub> lower boundary | Solar spectrum |
+
+
+
