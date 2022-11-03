@@ -6,6 +6,8 @@ We define O<sub>2</sub> analogues as Earth-like planets that have an oxygenated 
 
 The simulations that have been performed are detailed in the table below:
 
+<ins>**Table 1**</ins>
+
 | Simulation name   | O<sub>2</sub> mixing ratio [PAL] | CH<sub>4</sub> lower boundary        | CO<sub>2</sub> lower boundary | Solar spectrum |
 | ---------------   | ---------------------- | -------------------------- | ------------------- | -------------- |
 | Pre-industrial    | 1.000                  | Fixed at 0.8 ppmv          | Fixed at 280 ppmv   | Modern day Sun  |
@@ -22,8 +24,6 @@ The simulations that have been performed are detailed in the table below:
 | 1% PAL YS         | 0.010                  | Fixed at 0.8 ppmv          | Fixed at 280 ppmv   | 2 Ga Sun        |
 | 1% PAL YS 4xCO2   | 0.010                  | Fixed at 0.8 ppmv          | Fixed at 1120 ppmv  | 2 Ga Sun        |
 
-Table: Table shwoing
-
 ## Branching from run restarts
 
 Currently, the restart files are stored on ARC4 at /nobackup/Alternative_Earths/restarts/. Permanent storage will be in place eventually.
@@ -33,6 +33,8 @@ To branch from one of these restart files, you can do it manually, or use the bu
 ## Fixed lower boundary modifications
 
 The standard globally averaged lower boundary conditions are given in the following table:
+
+<ins>**Table 2**</ins>
 
 | Chemical | Mixing ratio |
 | -------- | ------------ |
@@ -108,6 +110,8 @@ Restart files are currently located at /glade/scratch/gregcooke/restarts/ on the
 
 Perturbations have been tested on the 10% PAL and 1% PAL simulations:
 
+<ins>**Table 3**</ins>
+
 | Simulation name   | O<sub>2</sub> mixing ratio [PAL] | CH<sub>4</sub> lower boundary        | CO<sub>2</sub> lower boundary | Solar spectrum | Lower boundary conditions |
 | ---------------   | ---------------------- | -------------------------- | ------------------- | -------------- | -----------------|
 | 10% PAL CH4 em10   | 0.100                  | Flux of 10x PD emissions    | Fixed at 280 ppmv   | Modern day Sun  | N/A |
@@ -125,12 +129,15 @@ where f<sub>X</sub> deotes the mixing ratio of species X.
 
 CO<sub>2</sub> and H<sub>2</sub>O absorption has now been added to the Schumann-Runge bands. We performed perturbations on the 1% PAL simulation by adding in the absorption, changing the lower boundary conditions, and then both changes at the same time.
 
+<ins>**Table 4**</ins>
+
 | Simulation name   | O<sub>2</sub> mixing ratio [PAL] | CH<sub>4</sub> lower boundary | CO<sub>2</sub> lower boundary | Solar spectrum |
 | ---------------   | ---------------------- | -------------------------- | ------------------- | --------------- |
 | 1% PAL SRB        | 0.010                  | Fixed at 0.8 ppmv          | Fixed at 280 ppmv   | Modern day Sun  |
 | 1% PAL LBC        | 0.010                  | See table below            | Fixed at 280 ppmv   | Modern day Sun  |
 | 1% PAL SRB + LBC  | 0.010                  | See table below            | Fixed at 280 ppmv   | Modern day Sun  |
 
+<ins>**Table 5**</ins>
 
 For the simulations labelled with LBC, the following lower boundary conditions were used:
 
@@ -153,16 +160,4 @@ For the simulations labelled with LBC, the following lower boundary conditions w
 | Total BROY                    | 1.13e-11 | N/A                   |
 | Total CLOY                    | 4.57e-10 | N/A                   |
 | Total FOY                     | 8.89e-15 | N/A                   |
-
-
-knitr::kable(head(mtcars[, 1:4]), "pipe")
-
-|                  |  mpg| cyl| disp|  hp|
-|:-----------------|----:|---:|----:|---:|
-|Mazda RX4         | 21.0|   6|  160| 110|
-|Mazda RX4 Wag     | 21.0|   6|  160| 110|
-|Datsun 710        | 22.8|   4|  108|  93|
-|Hornet 4 Drive    | 21.4|   6|  258| 110|
-|Hornet Sportabout | 18.7|   8|  360| 175|
-|Valiant           | 18.1|   6|  225| 105|
 
