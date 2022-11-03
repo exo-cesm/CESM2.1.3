@@ -22,6 +22,8 @@ The simulations that have been performed are detailed in the table below:
 | 1% PAL YS         | 0.010                  | Fixed at 0.8 ppmv          | Fixed at 280 ppmv   | 2 Ga Sun        |
 | 1% PAL YS 4xCO2   | 0.010                  | Fixed at 0.8 ppmv          | Fixed at 1120 ppmv  | 2 Ga Sun        |
 
+Table: Table shwoing
+
 ## Branching from run restarts
 
 Currently, the restart files are stored on ARC4 at /nobackup/Alternative_Earths/restarts/. Permanent storage will be in place eventually.
@@ -50,8 +52,9 @@ The standard globally averaged lower boundary conditions are given in the follow
 | Total CLOY | 4.57e-10 |
 | Total FOY | 8.89e-15 |
 
+Table: Table shwoing
 
-Boundary conditions can be cahnged. For example, the lower boundary for O<sub>2</sub>  and CO<sub>2</sub> were scaled using the following example operations on the \*cam.r.\* (restart) file and the  \*cam.i.\* (initial condition)file for the pre-industrial atmosphere:
+Boundary conditions can be changed. For example, the lower boundary for O<sub>2</sub>  and CO<sub>2</sub> were scaled using the following example operations on the \*cam.r.\* (restart) file and the  \*cam.i.\* (initial condition)file for the pre-industrial atmosphere:
 
 ncap2 -O -s "CO2=CO2\*4.0" $infile $outfile #this multiplies the CO<sub>2</sub> field by 4
 ncap2 -O -s "O2=O2\*0.1" $infile $outfile #this multiplies the O<sub>2</sub> field by 0.1
@@ -107,12 +110,16 @@ Perturbations have been tested on the 10% PAL and 1% PAL simulations:
 
 | Simulation name   | O<sub>2</sub> mixing ratio [PAL] | CH<sub>4</sub> lower boundary        | CO<sub>2</sub> lower boundary | Solar spectrum | Lower boundary conditions |
 | ---------------   | ---------------------- | -------------------------- | ------------------- | -------------- | -----------------|
-| 10% PAL CH4 em1   | 0.100                  | Flux of 1x PD emissions    | Fixed at 280 ppmv   | Modern day Sun  | N/A |
+| 10% PAL CH4 em10   | 0.100                  | Flux of 10x PD emissions    | Fixed at 280 ppmv   | Modern day Sun  | N/A |
+| 10% PAL CH4 em1 | 0.100                  | Flux of 1x PD emissions  | Fixed at 280 ppmv   | Modern day Sun  | N/A |
 | 10% PAL CH4 em0.1 | 0.100                  | Flux of 0.1x PD emissions  | Fixed at 280 ppmv   | Modern day Sun  | N/A |
-| 10% PAL CH4 em0.1 | 0.100                  | Flux of 0.1x PD emissions  | Fixed at 280 ppmv   | Modern day Sun  | N/A |
-| 10% PAL CH4 em0.1 | 0.100                  | Flux of 0.1x PD emissions  | Fixed at 280 ppmv   | Modern day Sun  | f<sub>CH<sub>3</sub>Cl</sub> = 4.57e-11 |
-| 10% PAL CH4 em0.1 | 0.100                  | Flux of 0.1x PD emissions  | Fixed at 280 ppmv   | Modern day Sun  | CH<sub>3</sub>Cl mixing ratio = 4.57e-11 |
-| 10% PAL CH4 em0.1 | 0.100                  | Flux of 0.1x PD emissions  | Fixed at 280 ppmv   | Modern day Sun  | CH<sub>3</sub>Cl mixing ratio = 4.57e-19 |
+| 10% PAL 0.1x CH3CL | 0.100                  | Fixed at 0.8 ppmv  | Fixed at 280 ppmv   | Modern day Sun  | f<sub>CH<sub>3</sub>Cl</sub> = 4.57e-11 |
+| 1% PAL 0.1x CH3CL   | 0.100                  | Fixed at 0.8 ppmv  | Fixed at 280 ppmv   | Modern day Sun  | f<sub>CH<sub>3</sub>Cl</sub> = 4.57e-11 |
+| 1% PAL 1e-9 All BR & CL sources | 0.100                  | Fixed at 0.8 ppmv  | Fixed at 280 ppmv   | Modern day Sun  | All Cl and Br sources reduced by a factor of 1 billion |
+
+Table: Table shwoing
+
+where f<sub>X</sub> deotes the mixing ratio of species X.
 
 ### Simulations with code updates
 
@@ -123,6 +130,8 @@ CO<sub>2</sub> and H<sub>2</sub>O absorption has now been added to the Schumann-
 | 1% PAL SRB        | 0.010                  | Fixed at 0.8 ppmv          | Fixed at 280 ppmv   | Modern day Sun  |
 | 1% PAL LBC        | 0.010                  | See table below            | Fixed at 280 ppmv   | Modern day Sun  |
 | 1% PAL SRB + LBC  | 0.010                  | See table below            | Fixed at 280 ppmv   | Modern day Sun  |
+
+Table: Table shwoing
 
 For the simulations labelled with LBC, the following lower boundary conditions were used:
 
@@ -144,4 +153,6 @@ For the simulations labelled with LBC, the following lower boundary conditions w
 | Total BROY                    | 1.13e-11 | N/A                   |
 | Total CLOY                    | 4.57e-10 | N/A                   |
 | Total FOY                     | 8.89e-15 | N/A                   |
+
+Table: Table shwoing
 
