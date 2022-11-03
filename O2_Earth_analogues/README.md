@@ -105,18 +105,18 @@ Restart files are currently located at /glade/scratch/gregcooke/restarts/ on the
 
 Perturbations have been tested on the 10% PAL and 1% PAL simulations:
 
-| Simulation name   | O<sub>2</sub> mixing ratio [PAL] | CH<sub>4</sub> lower boundary        | CO<sub>2</sub> lower boundary | Solar spectrum |
-| ---------------   | ---------------------- | -------------------------- | ------------------- | -------------- |
-| 10% PAL CH4 em1   | 0.100                  | Flux of 1x PD emissions    | Fixed at 280 ppmv   | Modern day Sun  |
-| 10% PAL CH4 em0.1 | 0.100                  | Flux of 0.1x PD emissions  | Fixed at 280 ppmv   | Modern day Sun  |
+| Simulation name   | O<sub>2</sub> mixing ratio [PAL] | CH<sub>4</sub> lower boundary        | CO<sub>2</sub> lower boundary | Solar spectrum | Lower boundary conditions |
+| ---------------   | ---------------------- | -------------------------- | ------------------- | -------------- | -----------------|
+| 10% PAL CH4 em1   | 0.100                  | Flux of 1x PD emissions    | Fixed at 280 ppmv   | Modern day Sun  | N/A |
+| 10% PAL CH4 em0.1 | 0.100                  | Flux of 0.1x PD emissions  | Fixed at 280 ppmv   | Modern day Sun  | N/A |
+| 10% PAL CH4 em0.1 | 0.100                  | Flux of 0.1x PD emissions  | Fixed at 280 ppmv   | Modern day Sun  | N/A |
+| 10% PAL CH4 em0.1 | 0.100                  | Flux of 0.1x PD emissions  | Fixed at 280 ppmv   | Modern day Sun  | f<sub>CH<sub>3</sub>Cl</sub> = 4.57e-11 |
+| 10% PAL CH4 em0.1 | 0.100                  | Flux of 0.1x PD emissions  | Fixed at 280 ppmv   | Modern day Sun  | CH<sub>3</sub>Cl mixing ratio = 4.57e-11 |
+| 10% PAL CH4 em0.1 | 0.100                  | Flux of 0.1x PD emissions  | Fixed at 280 ppmv   | Modern day Sun  | CH<sub>3</sub>Cl mixing ratio = 4.57e-19 |
 
-Furthermore, absorption from CO<sub>2</sub> and H<sub>2</sub>O have been included in the Schumann-Runge bands, and cross sections have been updated. The following simulations have been performed as tests with the new physics included:
+### Simulations with code updates
 
-| Simulation name   | O<sub>2</sub> mixing ratio [PAL] | CH<sub>4</sub> lower boundary        | CO<sub>2</sub> lower boundary | Solar spectrum |
-
-## Simulations with code updates
-
-CO2 and H2O absorption has now been added to the Schumann-Runge bands. We performed perturbations on the 1% PAL simulation by adding in the absorption, changing the lower boundary conditions, and then both changes at the same time.
+CO<sub>2</sub> and H<sub>2</sub>O absorption has now been added to the Schumann-Runge bands. We performed perturbations on the 1% PAL simulation by adding in the absorption, changing the lower boundary conditions, and then both changes at the same time.
 
 | Simulation name   | O<sub>2</sub> mixing ratio [PAL] | CH<sub>4</sub> lower boundary | CO<sub>2</sub> lower boundary | Solar spectrum |
 | ---------------   | ---------------------- | -------------------------- | ------------------- | --------------- |
@@ -126,7 +126,6 @@ CO2 and H2O absorption has now been added to the Schumann-Runge bands. We perfor
 
 For the simulations labelled with LBC, the following lower boundary conditions were used:
 
-| Chemical | Mixing ratio | Flux [molecules cm<sup>-3<sup>]        |
 | -------- | ------------ | -------------------------------------- |
 | CCL<sub>4</sub>               | 2.50e-14 | N/A                   |
 | CF<sub>2</sub>CLBR            | 4.45e-15 | N/A                   |
