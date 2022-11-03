@@ -17,7 +17,31 @@ These simulations were used to calculate new ozone estimates from 0.1% the prese
 
 Since then, we (Dan, Greg, and Doug Kinnison) have updated the source code to include absorption in the Schumann-Runge bands, and also added in previously missing cross sections. Whilst these updates do not make an appreciable difference for the pre-industrial atmosphere, it is now recommended to include these updates when investigating low-O<sub>2</sub> atmospheres.
 
-Instructions on how to set up these cases are found in the [_O2\_Earth\_analogues_ folder_](/O2_Earth_analogues).
+Instructions on how to set up these cases are found in the [_O2\_Earth\_analogues\_ folder_](/O2_Earth_analogues).
+
+A list of cases (where PAL means present atmospheric level) are described in the table below:
+
+<ins>**Table 1**</ins>
+
+| Simulation name   | Description |
+| ---------------   | ----------- |
+| [Pre-industrial](/O2_Earth_analogues/cases/PI_baseline)    | Standard pre-industrial BWma1850 case |
+| [150% PAL](/O2_Earth_analogues/cases/150pc_PAL_O2) | 150% PAL of O<sub>2</sub> |
+| [50% PAL](/O2_Earth_analogues/cases/50pc_PAL_O2)           | 50% PAL of O<sub>2</sub>  |
+| [10% PAL](/O2_Earth_analogues/cases/10pc_PAL_O2)           | 10% PAL of O<sub>2</sub>  |
+| [10% PAL CH<sub>4</sub> em10](/O2_Earth_analogues/cases/10pc_PAL_O2_CH4_em10)    | 10% PAL of O<sub>2</sub> 5000 Tg/yr CH<sub>4</sub> flux |
+| [10% PAL CH<sub>4</sub> em1](/O2_Earth_analogues/cases/10pc_PAL_O2_CH4_em1)      | 10% PAL of O<sub>2</sub> 500 Tg/yr CH<sub>4</sub> flux  |
+| [10% PAL CH<sub>4</sub> em0.1](/O2_Earth_analogues/cases/10pc_PAL_O2_CH4_em0.1)  | 10% PAL of O<sub>2</sub> 50 Tg/yr CH<sub>4</sub> flux   |
+| [5% PAL](/O2_Earth_analogues/cases/5pc_PAL_O2)            | 5% PAL O<sub>2</sub>      |
+| [1% PAL](/O2_Earth_analogues/cases/1pc_PAL_O2)            | 1% PAL of O<sub>2</sub>   |
+| [1% PAL CH<sub>4</sub> em10](/O2_Earth_analogues/cases/1pc_PAL_O2_CH4_em10)    | 1% PAL of O<sub>2</sub> 5000 Tg/yr CH<sub>4</sub> flux |
+| [1% PAL CH<sub>4</sub> em1](/O2_Earth_analogues/cases/1pc_PAL_O2_CH4_em1)      | 1% PAL of O<sub>2</sub> 500 Tg/yr CH<sub>4</sub> flux  |
+| [1% PAL CH<sub>4</sub> em0.1](/O2_Earth_analogues/cases/1pc_PAL_O2_CH4_em0.1)  | 1% PAL of O<sub>2</sub> 50 Tg/yr CH<sub>4</sub> flux   |
+| [1% PAL 2 Ga YS](/O2_Earth_analogues/cases/)  | 1% PAL of O<sub>2</sub> 2 Gyr younger Sun |
+| [1% PAL 2 Ga YS 4x CO<sub>2</sub>](/O2_Earth_analogues/cases/)  | 1% PAL of O<sub>2</sub> 2 Gyr younger Sun with 1120 ppmv CO<sub>2</sub> |
+| [1% PAL 2 Ga YS 21 hr](/O2_Earth_analogues/cases/)  | 1% PAL of O<sub>2</sub> 2 Gyr younger Sun with 21 hour day |
+| [0.5% PAL](/O2_Earth_analogues/cases/0.5pc_PAL_O2)            | 0.5% PAL of O<sub>2</sub>   |
+| [0.1% PAL](/O2_Earth_analogues/cases/0.1pc_PAL_O2)            | 0.1% PAL of O<sub>2</sub>   |
 
 ## Tidally locked exoplanet scenarios
 
