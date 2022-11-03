@@ -114,5 +114,35 @@ Furthermore, absorption from CO<sub>2</sub> and H<sub>2</sub>O have been include
 
 | Simulation name   | O<sub>2</sub> mixing ratio [PAL] | CH<sub>4</sub> lower boundary        | CO<sub>2</sub> lower boundary | Solar spectrum |
 
+## Simulations with code updates
 
+CO2 and H2O absorption has now been added to the Schumann-Runge bands. We performed perturbations on the 1% PAL simulation by adding in the absorption, changing the lower boundary conditions, and then both changes at the same time.
+
+| Simulation name   | O<sub>2</sub> mixing ratio [PAL] | CH<sub>4</sub> lower boundary | CO<sub>2</sub> lower boundary | Solar spectrum |
+| ---------------   | ---------------------- | -------------------------- | ------------------- | --------------- |
+| 1% PAL SRB        | 0.010                  | Fixed at 0.8 ppmv          | Fixed at 280 ppmv   | Modern day Sun  |
+| 1% PAL LBC        | 0.010                  | See table below            | Fixed at 280 ppmv   | Modern day Sun  |
+| 1% PAL SRB + LBC  | 0.010                  | See table below            | Fixed at 280 ppmv   | Modern day Sun  |
+
+For the simulations labelled with LBC, the following lower boundary conditions were used:
+
+| Chemical | Mixing ratio | Flux [molecules cm<sup>-3<sup>]        |
+| -------- | ------------ | -------------------------------------- |
+| CCL<sub>4</sub>               | 2.50e-14 | N/A                   |
+| CF<sub>2</sub>CLBR            | 4.45e-15 | N/A                   |
+| CFC11eq                       | 3.21e-11 | N/A                   |
+| CH<sub>2</sub>BR<sub>2</sub>  | 1.20e-12 | N/A                   |
+| CH<sub>3</sub>BR              | 5.30e-12 | N/A                   |
+| CH<sub>3</sub>CL              | N/A      | 2.92e8                |
+| CH<sub>4</sub>                | 8.08e-07 | N/A                   |
+| CHBR<sub>3</sub>              | 1.20e-12 | N/A                   |
+| CO<sub>2</sub>                | 0.000284 | N/A                   |
+| H<sub>2</sub>                 | N/A      | 3e-4                  |
+| OCS                           | 3.37e-10 | N/A                   |
+| N<sub>2</sub>O                | N/A      | 1.01e9                |
+| CH<sub>4</sub>                | N/A      | 1.14e11               |
+| CO                            | N/A      | 2.21e11               |
+| Total BROY                    | 1.13e-11 | N/A                   |
+| Total CLOY                    | 4.57e-10 | N/A                   |
+| Total FOY                     | 8.89e-15 | N/A                   |
 
