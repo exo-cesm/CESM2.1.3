@@ -47,4 +47,14 @@ A list of cases (where PAL means present atmospheric level) are described in the
 
 Instructions on how to set up these cases are found in the [_Tidally\_locked\_exoplanets_ folder](/Tidally_locked_exoplanets).
 
+<ins>**Table 2**</ins>
+
+| Simulation name   | Description |
+| ---------------   | ----------- |
+| name 1    | description to go here |
+| name 2    | description to go here |
+| name 3    | description to go here |
+| name 4    | description to go here |
+| name 5    | description to go here |
+
 The tidally locked simulations cover several cases for known M dwarf terrestrial exoplanets. The basic modifications include changing the rotation rate of the model, changing the radius and gravitational acceleration, and fixing the solar zenith angle (in order to fix the substellar point). The substellar point is placed either in the middle of the Pacific ocean at 180&deg; longitude, or at 30&deg; longitude in Africa. Additionally, depending on the exoplanet in question, the solar file will need to be changed and scaled to the irradiance that the planet recieves. The Stellar Wind and Irradiance Model ([SWIM](https://github.com/jack-eddy-symposium/exoplanetary-impact/tree/main/SWIM)) has been developed for this purpose.
