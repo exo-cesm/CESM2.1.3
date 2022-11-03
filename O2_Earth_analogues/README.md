@@ -119,7 +119,7 @@ Perturbations have been tested on the 10% PAL and 1% PAL simulations:
 | 10% PAL CH4 em0.1 | 0.100                  | Flux of 0.1x PD emissions  | Fixed at 280 ppmv   | Modern day Sun  | N/A |
 | 10% PAL 0.1x CH3CL | 0.100                  | Fixed at 0.8 ppmv  | Fixed at 280 ppmv   | Modern day Sun  | f<sub>CH<sub>3</sub>Cl</sub> = 4.57e-11 |
 | 1% PAL 0.1x CH3CL   | 0.100                  | Fixed at 0.8 ppmv  | Fixed at 280 ppmv   | Modern day Sun  | f<sub>CH<sub>3</sub>Cl</sub> = 4.57e-11 |
-| 1% PAL 1e-9 All BR & CL sources | 0.100                  | Fixed at 0.8 ppmv  | Fixed at 280 ppmv   | Modern day Sun  | All Cl and Br sources reduced by a factor of 1 billion |
+| 1% PAL 1e-9 All BR & CL sources | 0.100                  | Fixed at 0.8 ppmv  | Fixed at 280 ppmv   | Modern day Sun  | All Cl and Br sources in [Table 2](#Fixed-lower-boundary-modifications) reduced by a factor of 1 billion |
 
 Table: Table shwoing
 
@@ -137,9 +137,9 @@ CO<sub>2</sub> and H<sub>2</sub>O absorption has now been added to the Schumann-
 | 1% PAL LBC        | 0.010                  | See table below            | Fixed at 280 ppmv   | Modern day Sun  |
 | 1% PAL SRB + LBC  | 0.010                  | See table below            | Fixed at 280 ppmv   | Modern day Sun  |
 
-<ins>**Table 5**</ins>
-
 For the simulations labelled with LBC, the following lower boundary conditions were used:
+
+<ins>**Table 5**</ins>
 
 | Chemical | Mixing ratio | Flux [molecules cm<sup>-3<sup>]        |
 | -------- | ------------ | -------------------------------------- |
