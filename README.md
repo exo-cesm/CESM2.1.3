@@ -17,7 +17,7 @@ These simulations were used to calculate new ozone estimates from 0.1% the prese
 
 Since then, we (Dan, Greg, and Doug Kinnison) have updated the source code to include absorption in the Schumann-Runge bands, and also added in previously missing cross sections. Whilst these updates do not make an appreciable difference for the pre-industrial atmosphere, it is now recommended to include these updates when investigating low-O<sub>2</sub> atmospheres.
 
-Instructions on how to set up these cases are found in the [_O2\_Earth\_analogues\_ folder_](/O2_Earth_analogues).
+Instructions on how to set up these cases are found in the [_O2\_Earth\_analogues_ folder](/O2_Earth_analogues).
 
 A list of cases (where PAL means present atmospheric level) are described in the table below:
 
@@ -45,6 +45,6 @@ A list of cases (where PAL means present atmospheric level) are described in the
 
 ## Tidally locked exoplanet scenarios
 
-Instructions on how to set up these cases are found in the _Tidally\_locked\_exoplanets_ folder.
+Instructions on how to set up these cases are found in the [_Tidally\_locked\_exoplanets_ folder](/Tidally_locked_exoplanets).
 
 The tidally locked simulations cover several cases for known M dwarf terrestrial exoplanets. The basic modifications include changing the rotation rate of the model, changing the radius and gravitational acceleration, and fixing the solar zenith angle (in order to fix the substellar point). The substellar point is placed either in the middle of the Pacific ocean at 180&deg; longitude, or at 30&deg; longitude in Africa. Additionally, depending on the exoplanet in question, the solar file will need to be changed and scaled to the irradiance that the planet recieves. The Stellar Wind and Irradiance Model ([SWIM](https://github.com/jack-eddy-symposium/exoplanetary-impact/tree/main/SWIM)) has been developed for this purpose.
