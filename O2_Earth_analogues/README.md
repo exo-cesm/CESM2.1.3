@@ -131,10 +131,6 @@ CO<sub>2</sub> and H<sub>2</sub>O absorption has now been added to the Schumann-
 | 1% PAL LBC        | 0.010                  | See table below            | Fixed at 280 ppmv   | Modern day Sun  |
 | 1% PAL SRB + LBC  | 0.010                  | See table below            | Fixed at 280 ppmv   | Modern day Sun  |
 
-knitr::kable(top_gap,
-             caption = "The first 6 rows of the dataset, gapminder")
-
-Table: Table shwoing
 
 For the simulations labelled with LBC, the following lower boundary conditions were used:
 
@@ -158,5 +154,15 @@ For the simulations labelled with LBC, the following lower boundary conditions w
 | Total CLOY                    | 4.57e-10 | N/A                   |
 | Total FOY                     | 8.89e-15 | N/A                   |
 
-Table: Table shwoing
+
+knitr::kable(head(mtcars[, 1:4]), "pipe")
+
+|                  |  mpg| cyl| disp|  hp|
+|:-----------------|----:|---:|----:|---:|
+|Mazda RX4         | 21.0|   6|  160| 110|
+|Mazda RX4 Wag     | 21.0|   6|  160| 110|
+|Datsun 710        | 22.8|   4|  108|  93|
+|Hornet 4 Drive    | 21.4|   6|  258| 110|
+|Hornet Sportabout | 18.7|   8|  360| 175|
+|Valiant           | 18.1|   6|  225| 105|
 
