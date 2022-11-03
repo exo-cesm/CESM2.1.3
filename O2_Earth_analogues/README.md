@@ -131,10 +131,14 @@ CO<sub>2</sub> and H<sub>2</sub>O absorption has now been added to the Schumann-
 | 1% PAL LBC        | 0.010                  | See table below            | Fixed at 280 ppmv   | Modern day Sun  |
 | 1% PAL SRB + LBC  | 0.010                  | See table below            | Fixed at 280 ppmv   | Modern day Sun  |
 
+knitr::kable(top_gap,
+             caption = "The first 6 rows of the dataset, gapminder")
+
 Table: Table shwoing
 
 For the simulations labelled with LBC, the following lower boundary conditions were used:
 
+| Chemical | Mixing ratio | Flux [molecules cm<sup>-3<sup>]        |
 | -------- | ------------ | -------------------------------------- |
 | CCL<sub>4</sub>               | 2.50e-14 | N/A                   |
 | CF<sub>2</sub>CLBR            | 4.45e-15 | N/A                   |
