@@ -15,8 +15,6 @@ The location of restarts directories will also be given and are currently on the
 
 These simulations were used to calculate new ozone estimates from 0.1% the present atmospheric level (PAL) of O<sub>2</sub> to 150% PAL of O<sub>2</sub> - see [Cooke et al. 2022a](https://doi.org/10.1098/rsos.211165). They were then used to predict time-varying direct imaging of Earth-analogue exoplanets - see [Cooke et al. 2022b](https://doi.org/10.1093/mnras/stac2604).
 
-Since then, we (Dan, Greg, and Doug Kinnison) have updated the source code to include absorption in the Schumann-Runge bands, and also added in previously missing cross sections. Whilst these updates do not make an appreciable difference for the pre-industrial atmosphere, it is now recommended to include these updates when investigating low-O<sub>2</sub> atmospheres.
-
 Instructions on how to set up these cases are found in the [_O2\_Earth\_analogues_ folder](/O2_Earth_analogues).
 
 A list of cases (where PAL means present atmospheric level) are described in the table below:
@@ -42,6 +40,8 @@ A list of cases (where PAL means present atmospheric level) are described in the
 | [1% PAL 2 Ga YS 21 hr](/O2_Earth_analogues/cases/)  | 1% PAL of O<sub>2</sub> 2 Gyr younger Sun with 21 hour day |
 | [0.5% PAL](/O2_Earth_analogues/cases/0.5pc_PAL_O2)            | 0.5% PAL of O<sub>2</sub>   |
 | [0.1% PAL](/O2_Earth_analogues/cases/0.1pc_PAL_O2)            | 0.1% PAL of O<sub>2</sub>   |
+
+Since these simulations were performed, we (Dan, Greg, and Doug Kinnison) have updated the source code to include absorption in the Schumann-Runge bands, and also added in previously missing cross sections. Whilst these updates do not make an appreciable difference for the pre-industrial atmosphere, it is now recommended to include these updates when investigating low-O<sub>2</sub> atmospheres.
 
 ## Tidally locked exoplanet scenarios
 
