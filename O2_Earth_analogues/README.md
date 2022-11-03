@@ -54,8 +54,6 @@ The standard globally averaged lower boundary conditions are given in the follow
 | Total CLOY | 4.57e-10 |
 | Total FOY | 8.89e-15 |
 
-Table: Table shwoing
-
 Boundary conditions can be changed. For example, the lower boundary for O<sub>2</sub>  and CO<sub>2</sub> were scaled using the following example operations on the \*cam.r.\* (restart) file and the  \*cam.i.\* (initial condition)file for the pre-industrial atmosphere:
 
 ncap2 -O -s "CO2=CO2\*4.0" $infile $outfile #this multiplies the CO<sub>2</sub> field by 4
@@ -100,7 +98,9 @@ solar_irrad_data_file = "/glade/u/home/gregcooke/SolarForcingCMIP6piControl_c160
 
 ## Publications
 
-Cooke GJ, Marsh DR, Walsh C, Black B, Lamarque J-F. 2022, A revised lower estimate of ozone columns during Earth’s oxygenated history. R. Soc. Open Sci. 9: 211165. https://doi.org/10.1098/rsos.211165
+Cooke GJ, Marsh DR, Walsh C, Black B, Lamarque J-F. 2022, A revised lower estimate of ozone columns during Earth’s oxygenated history. R. Soc. Open Sci. 9: 211165. https://doi.org/10.1098/rsos.211165.
+
+G J Cooke, D R Marsh, C Walsh, S Rugheimer, G L Villanueva, Variability due to climate and chemistry in observations of oxygenated Earth-analogue exoplanets, Monthly Notices of the Royal Astronomical Society, 2022;, stac2604, https://doi.org/10.1093/mnras/stac2604.
 
 ## Location of restart files
 
@@ -120,8 +120,6 @@ Perturbations have been tested on the 10% PAL and 1% PAL simulations:
 | 10% PAL 0.1x CH3CL | 0.100                  | Fixed at 0.8 ppmv  | Fixed at 280 ppmv   | Modern day Sun  | f<sub>CH<sub>3</sub>Cl</sub> = 4.57e-11 |
 | 1% PAL 0.1x CH3CL   | 0.100                  | Fixed at 0.8 ppmv  | Fixed at 280 ppmv   | Modern day Sun  | f<sub>CH<sub>3</sub>Cl</sub> = 4.57e-11 |
 | 1% PAL 1e-9 All BR & CL sources | 0.100                  | Fixed at 0.8 ppmv  | Fixed at 280 ppmv   | Modern day Sun  | All Cl and Br sources in [Table 2](#Fixed-lower-boundary-modifications) reduced by a factor of 1 billion |
-
-Table: Table shwoing
 
 where f<sub>X</sub> deotes the mixing ratio of species X.
 
