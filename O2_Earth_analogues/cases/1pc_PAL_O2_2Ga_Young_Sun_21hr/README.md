@@ -6,8 +6,6 @@ run buildcase\_1pc\_O2\_2Ga\_YS\_21hr\_ARC4. A case will be created with the nam
 
 A case will be created and the project will be planet with the job queue planet.q. If switching to the main queue, in the case directory, ./xmlchange the project to be blank (no input) and the job queue to be 40core-192G.q.
 
-
-
 A user\_nl\_cam example will be copied in to the case directory.
 
 The following modified files will be placed in SourceMods/src.cam/:

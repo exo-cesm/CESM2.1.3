@@ -1,4 +1,4 @@
-# 1. O<sub>2</sub> analogues case descriptions
+# 1. O<sub>2</sub> Earth-analogue and paleoclimate case descriptions
 
 ## Publications
 
