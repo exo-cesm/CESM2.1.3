@@ -1,6 +1,14 @@
-# O<sub>2</sub> analogues case descriptions
+# 1. O<sub>2</sub> analogues case descriptions
 
-The following simulations were used in [Cooke et al. 2022](https://doi.org/10.1098/rsos.211165).
+## Publications
+
+The simulations in section 1 were used in the following publications:
+
+Cooke GJ, Marsh DR, Walsh C, Black B, Lamarque J-F. 2022, A revised lower estimate of ozone columns during Earth’s oxygenated history. R. Soc. Open Sci. 9: 211165. https://doi.org/10.1098/rsos.211165.
+
+G J Cooke, D R Marsh, C Walsh, S Rugheimer, G L Villanueva, Variability due to climate and chemistry in observations of oxygenated Earth-analogue exoplanets, Monthly Notices of the Royal Astronomical Society, 2022;, stac2604, https://doi.org/10.1093/mnras/stac2604.
+
+## Simulations
 
 We define O<sub>2</sub> analogues as Earth-like planets that have an oxygenated atmosphere. Simulations between 1000 times less than the present atmospheric level (PAL) of oxygen (the present atmospheric level of O<sub>2</sub> is 21% by volume) and up to 1.5 times PAL are included in this definition.
 
@@ -96,17 +104,11 @@ In the case directory, user_nl_cam was modified to include the new solar file fo
 solar_irrad_data_file = "/glade/u/home/gregcooke/SolarForcingCMIP6piControl_c160921_2.0Ga.nc"
 /
 
-## Publications
-
-Cooke GJ, Marsh DR, Walsh C, Black B, Lamarque J-F. 2022, A revised lower estimate of ozone columns during Earth’s oxygenated history. R. Soc. Open Sci. 9: 211165. https://doi.org/10.1098/rsos.211165.
-
-G J Cooke, D R Marsh, C Walsh, S Rugheimer, G L Villanueva, Variability due to climate and chemistry in observations of oxygenated Earth-analogue exoplanets, Monthly Notices of the Royal Astronomical Society, 2022;, stac2604, https://doi.org/10.1093/mnras/stac2604.
-
 ## Location of restart files
 
-Restart files are currently located at /glade/scratch/gregcooke/restarts/ on the NCAR Cheyenne supercomputer.
+Restart files are currently located at /nobackup/Alternative\_Earths/restarts/ on the ARC4 supercomputer at the University of Leeds.
 
-## Since [Cooke et al. 2022a](https://doi.org/10.1098/rsos.211165), additional simulations have been perfomed
+# 2. Since [Cooke et al. 2022a](https://doi.org/10.1098/rsos.211165), additional simulations have been perfomed
 
 Perturbations have been tested on the 10% PAL and 1% PAL simulations:
 
