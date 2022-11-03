@@ -17,7 +17,7 @@ These simulations were used to calculate new ozone estimates from 0.1% the prese
 
 Since then, we (Dan, Greg, and Doug Kinnison) have updated the source code to include absorption in the Schumann-Runge bands, and also added in previously missing cross sections. Whilst these updates do not make an appreciable difference for the pre-industrial atmosphere, it is now recommended to include these updates when investigating low-O<sub>2</sub> atmospheres.
 
-Instructions on how to set up these cases are found in the [a workaround link](exo-cesm/CESM2.1.3/O2\_Earth\_analogues_ folder) _O2\_Earth\_analogues_ folder.
+Instructions on how to set up these cases are found in the [a workaround link](exo-cesm/CESM2.1.3/tree/main/O2_Earth_analogues) _O2\_Earth\_analogues_ folder.
 
 ## Tidally locked exoplanet scenarios
 
