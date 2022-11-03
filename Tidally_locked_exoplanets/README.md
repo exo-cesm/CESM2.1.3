@@ -3,12 +3,16 @@ Tidally lokced exoplanets are exoplanets that synchronously rotate around their 
 
 In each case, the obliquity and eccentricty in the model have been set to 0, and the solar zenith angles have been fixed so that the star is fixed in the sky. 
 
-The simulations that have been performed are detailed in the table below:
+When the simulations are finished, the details will be in the table below:
 
-| Simulation name | Stellar spectrum used   | Total irradiance [Wm<sup>-3</sup>] | Sub stellar point                    | 
-| --------------- | ----------------------- | ---------------------------------- | ------------------------------------ |
-| x name          | x spectrum [cite source]| x                                  | 180&deg;  longitude (Pacific ocean) |
-| x name          | x spectrum [cite source]| x                                  | 30&deg; longitude (Africa) |
+<ins>**Table 1**</ins>
+
+| Simulation name | Stellar spectrum used   | Total irradiance [Wm<sup>-3</sup>] | Spectrum source | Sub stellar point                    | 
+| --------------- | ----------------------- | ---------------------------------- | --------------- | ------------------------------------ |
+| x name          | x spectrum [cite source]| x                                  |                 | 180&deg;  longitude (Pacific ocean) |
+| x name          | x spectrum [cite source]| x                                  |                 | 30&deg; longitude (Africa) |
+| x name          | x spectrum [cite source]| x                                  |                 | 180&deg;  longitude (Pacific ocean) |
+| x name          | x spectrum [cite source]| x                                  |                 | 30&deg; longitude (Africa) |
 
 
 ## Changing the stellar spectrum
@@ -16,6 +20,8 @@ The simulations that have been performed are detailed in the table below:
 We used the [SWIM](https://github.com/jack-eddy-symposium/exoplanetary-impact/tree/main/SWIM) code to change the stellar spectrum and rescale it to specific exoplanets.
 
 ## Initial conditions and getting through model crashes
+
+Taking WACCM6 from an Earth System Model to a model that simulates an M dwarf terrestrial exoplanet is a huge change in the model, and it can be unstable. Possible ways of getting through crashes are changing CLUBB parameters, decreasing the timestep, and reducing the rotation in steady jumps through several branch cases.
 
 ## Location of restart files
 
