@@ -9,11 +9,11 @@ When the simulations are finished, the details will be in the table below:
 
 | Simulation name | Stellar spectrum used   | Total irradiance [Wm<sup>-3</sup>] | Spectrum source | Sub stellar point                    | 
 | --------------- | ----------------------- | ---------------------------------- | --------------- | ------------------------------------ |
-| x name          | x spectrum [cite source]| x                                  |                 | 180&deg;  longitude (Pacific ocean) |
-| x name          | x spectrum [cite source]| x                                  |                 | 30&deg; longitude (Africa) |
-| x name          | x spectrum [cite source]| x                                  |                 | 180&deg;  longitude (Pacific ocean) |
-| x name          | x spectrum [cite source]| x                                  |                 | 30&deg; longitude (Africa) |
-
+| TP-1 e P19 PI       | P19 spectrum Peacock et al. (2019) | 900  |  | 180&deg;  longitude (Pacific ocean) |
+| TP-1 e P19 0.1% PAL | P19 spectrum Peacock et al. (2019) | 900 |                 | 30&deg; longitude (Africa) |
+| TP-1 e P19 no TL    | P19 spectrum Peacock et al. (2019) | 900  |                 | 180&deg;  longitude (Pacific ocean) |
+| TP-1 e W21 PI       | W21 spectrum Wilson et al. (2021)  | 900   |                 | 30&deg; longitude (Africa) |
+| PC b PI             | Mega-MUSCLES  | 900   |                 | 30&deg; longitude (Pacific Ocean) |
 
 ## Changing the stellar spectrum
 
