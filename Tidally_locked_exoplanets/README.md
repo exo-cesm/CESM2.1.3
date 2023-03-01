@@ -3,17 +3,30 @@ Tidally lokced exoplanets are exoplanets that synchronously rotate around their 
 
 In each case, the obliquity and eccentricty in the model have been set to 0, and the solar zenith angles have been fixed so that the star is fixed in the sky. 
 
-When the simulations are finished, the details will be in the table below:
+The following simulations have been used for the paper titled: 'Uncertainties from stellar UV in 3D simulations of TRAPPIST-1 e lead to ambiguities in the interpretation of observations', that will be shortly submitted:
 
 <ins>**Table 1**</ins>
 
 | Simulation name | Stellar spectrum used   | Total irradiance [Wm<sup>-3</sup>] | Spectrum source | Sub stellar point                    | 
 | --------------- | ----------------------- | ---------------------------------- | --------------- | ------------------------------------ |
-| TP-1 e P19 PI       | P19 spectrum Peacock et al. (2019) | 900  |  | 180&deg;  longitude (Pacific ocean) |
-| TP-1 e P19 0.1% PAL | P19 spectrum Peacock et al. (2019) | 900 |                 | 30&deg; longitude (Africa) |
-| TP-1 e P19 no TL    | P19 spectrum Peacock et al. (2019) | 900  |                 | 180&deg;  longitude (Pacific ocean) |
-| TP-1 e W21 PI       | W21 spectrum Wilson et al. (2021)  | 900   |                 | 30&deg; longitude (Africa) |
-| PC b PI             | Mega-MUSCLES  | 900   |                 | 30&deg; longitude (Pacific Ocean) |
+| TP-1 e P19 PI       | P19 spectrum | 900  | [Peacock et al. (2019)](https://archive.stsci.edu/hlsp/hazmat) | 180&deg;  longitude (Pacific ocean) |
+| TP-1 e P19 0.1% PAL | P19 spectrum | 900  | [Peacock et al. (2019)](https://archive.stsci.edu/hlsp/hazmat) | 180&deg;  longitude (Pacific ocean) |
+| TP-1 e P19 no TL    | P19 spectrum | 900  | [Peacock et al. (2019)](https://archive.stsci.edu/hlsp/hazmat) | 180&deg;  longitude (Pacific ocean) |
+| TP-1 e W21 PI       | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) |
+
+## Other simulations 
+
+The following simulations have also been performed, or are currently in progress:
+
+<ins>**Table 2**</ins>
+
+| Simulation name | Stellar spectrum used   | Total irradiance [Wm<sup>-3</sup>] | Spectrum source | Sub stellar point                    |
+| --------------- | ----------------------- | ---------------------------------- | --------------- | ------------------------------------ |
+| TP-1 e P19 PI SSPL | P19 spectrum | 900  | [Peacock et al. (2019)](https://archive.stsci.edu/hlsp/hazmat) | 180&deg;  longitude (Pacific ocean) |
+| TP-1 e W21 0.1% PAL | W21 spectrum | 900   | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) |
+| TP-1 e W21 no TL | W21 spectrum Wilson et al. (2021)  | 900   | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) |
+| PC b PI             | Mega-MUSCLES  | 900   | [Mega-MUSCLES Treasury Survey GJ 551](https://archive.stsci.edu/prepds/muscles/)  | 30&deg; longitude (Pacific Ocean) |
+
 
 ## Changing the stellar spectrum
 
