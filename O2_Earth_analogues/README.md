@@ -141,7 +141,7 @@ For the simulations labelled with LBC, the following lower boundary conditions w
 
 <ins>**Table 5**</ins>
 
-| Chemical | Mixing ratio | Flux [molecules cm<sup>-3<sup>]        |
+| Chemical | Mixing ratio | Flux [molecules cm<sup>-3</sup>]       |
 | -------- | ------------ | -------------------------------------- |
 | CCL<sub>4</sub>               | 2.50e-14 | N/A                   |
 | CF<sub>2</sub>CLBR            | 4.45e-15 | N/A                   |
