@@ -110,6 +110,8 @@ Restart files are currently located at /nobackup/Alternative\_Earths/restarts/ o
 
 # 2. Since [Cooke et al. 2022a](https://doi.org/10.1098/rsos.211165), additional simulations have been perfomed
 
+The simulations in this section have been used for the following paper: Comparison Between Ozone Column Depths and Methane Lifetimes Computed by 1-D and 3-D Models at Different Atmospheric O<sub>2</sub> Levels', Ji et al. (2023), in review.
+
 Perturbations have been tested on the 10% PAL and 1% PAL simulations:
 
 <ins>**Table 3**</ins>
@@ -160,4 +162,7 @@ For the simulations labelled with LBC, the following lower boundary conditions w
 | Total BROY                    | 1.13e-11 | N/A                   |
 | Total CLOY                    | 4.57e-10 | N/A                   |
 | Total FOY                     | 8.89e-15 | N/A                   |
+
+These conditions are based on calculations from the Kasting 1D model for a present day Earth simulation - see Ji et al. (2023).
+
 
