@@ -2,11 +2,11 @@
 
 Tidally locked exoplanets are exoplanets that synchronously rotate around their host star, meaning their orbital period is the same as their rotational period. This is even expected to happen to potentially habiatble exoplanets around M dwarf stars and some K dwarf stars. These exoplanets are epected to have a zero (or near zero) orbital eccentrity and obliquity (axial tilt).
 
-In each case (apart from the no TL cases, which stands for no tidal locking), the obliquity and eccentricty in the model have been set to 0, and the solar zenith angles have been fixed so that the star is fixed in the sky. 
+In each case (apart from the no TL cases, which stands for no tidal locking), the obliquity and eccentricty in the model have been set to 0, and the solar zenith angles have been fixed so that the star is unmoving in the sky. 
 
 The standard initial simulations placed the substellar point over 180&deg;  longitude,  0&deg;  latitude, which is in the Pacific ocean. Each simulation uses the BWma1850 WACCM6 configuration. These simulations assume an initial pre-industrial (PI) Earth composition with 1000 hPa surface pressure. SSPL is notation for sub-stellar point over land, where the substellar point was placed at 30&deg;  longitude,  0&deg;  latitude, which is over Africa. 0.1% PAL is 1000 times less than the present atmospheric level of oxygen. 
 
-The following simulations have been used for the paper titled: 'Uncertainties from stellar UV in 3D simulations of TRAPPIST-1 e lead to ambiguities in the interpretation of observations', that will be shortly submitted:
+The following simulations have been used for the paper titled: 'Uncertainties from stellar UV in 3D simulations of TRAPPIST-1e lead to ambiguities in the interpretation of observations', that will be shortly submitted:
 
 <ins>**Table 1**</ins>
 
