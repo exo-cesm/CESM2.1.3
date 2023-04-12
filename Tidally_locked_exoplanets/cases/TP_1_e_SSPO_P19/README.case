@@ -1,0 +1,162 @@
+2023-01-25 19:19:24: ./create_clone --clone /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_e.SSPO.003 --case /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_e.SSPO.004 --cime-output-root /nobackup/pygjc/cesm_sims/
+ ---------------------------------------------------
+2023-01-25 19:19:24: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
+ ---------------------------------------------------
+2023-01-25 19:19:24: Compset specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2023-01-25 19:19:24: Pes     specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2023-01-04 10:45:58: ./create_clone --clone /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_e.SSPO.002 --case /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_e.SSPO.003 --cime-output-root /nobackup/pygjc/cesm_sims/
+ ---------------------------------------------------
+2023-01-04 10:45:58: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
+ ---------------------------------------------------
+2023-01-04 10:45:58: Compset specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2023-01-04 10:45:58: Pes     specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2022-08-05 08:52:40: /nobackup/CESM/cesm_2.1.3/cime/scripts/create_clone --clone /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_e_MUSCLES.009 --case /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_e.SSPO.002 --cime-output-root /nobackup/pygjc/cesm_sims/
+ ---------------------------------------------------
+2022-08-05 08:52:40: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
+ ---------------------------------------------------
+2022-08-05 08:52:40: Compset specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2022-08-05 08:52:40: Pes     specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2022-07-29 16:51:43: /nobackup/CESM/cesm_2.1.3/cime/scripts/create_clone --clone /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_e_MUSCLES.008 --case /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_e_MUSCLES.009 --cime-output-root /nobackup/pygjc/cesm_sims/
+ ---------------------------------------------------
+2022-07-29 16:51:43: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
+ ---------------------------------------------------
+2022-07-29 16:51:43: Compset specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2022-07-29 16:51:43: Pes     specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2022-07-25 13:11:24: /nobackup/CESM/cesm_2.1.3/cime/scripts/create_clone --clone cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_e_MUSCLES.007 --case cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_e_MUSCLES.008 --cime-output-root /nobackup/pygjc/cesm_sims/
+ ---------------------------------------------------
+2022-07-25 13:11:24: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
+ ---------------------------------------------------
+2022-07-25 13:11:24: Compset specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2022-07-25 13:11:24: Pes     specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2022-07-20 15:09:48: /nobackup/CESM/cesm_2.1.3/cime/scripts/create_clone --clone cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_e_MUSCLES.002 --case cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_e_MUSCLES.007 --cime-output-root /nobackup/pygjc/cesm_sims/
+ ---------------------------------------------------
+2022-07-20 15:09:48: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
+ ---------------------------------------------------
+2022-07-20 15:09:48: Compset specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2022-07-20 15:09:48: Pes     specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2022-07-08 14:28:17: /nobackup/CESM/cesm_2.1.3/cime/scripts/create_clone --clone cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_e_MUSCLES.001 --case cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_e_MUSCLES.002 --cime-output-root /nobackup/pygjc/cesm_sims/
+ ---------------------------------------------------
+2022-07-08 14:28:17: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
+ ---------------------------------------------------
+2022-07-08 14:28:17: Compset specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2022-07-08 14:28:17: Pes     specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2022-06-03 16:13:53: /nobackup/CESM/cesm_2.1.3/cime/scripts/create_clone --clone cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_0.9_S0.pop.005 --case cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_e_MUSCLES.001 --cime-output-root /nobackup/pygjc/cesm_sims/
+ ---------------------------------------------------
+2022-06-03 16:13:53: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
+ ---------------------------------------------------
+2022-06-03 16:13:53: Compset specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2022-06-03 16:13:53: Pes     specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2022-02-23 14:12:54: /nobackup/CESM/cesm_2.1.3/cime/scripts/create_clone --clone /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_0.9_S0.pop.004 --case /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_0.9_S0.pop.005 --cime-output-root /nobackup/pygjc/cesm_sims/
+ ---------------------------------------------------
+2022-02-23 14:12:54: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
+ ---------------------------------------------------
+2022-02-23 14:12:54: Compset specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2022-02-23 14:12:54: Pes     specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2022-02-20 16:06:14: /nobackup/CESM/cesm_2.1.3/cime/scripts/create_clone --clone /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_0.9_S0.pop.003 --case /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_0.9_S0.pop.004
+ ---------------------------------------------------
+2022-02-20 16:06:14: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
+ ---------------------------------------------------
+2022-02-20 16:06:14: Compset specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2022-02-20 16:06:14: Pes     specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2022-02-16 08:23:04: /nobackup/CESM/cesm_2.1.3/cime/scripts/create_clone --clone /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_0.9_S0.pop.002 --case /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_0.9_S0.pop.003
+ ---------------------------------------------------
+2022-02-16 08:23:04: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
+ ---------------------------------------------------
+2022-02-16 08:23:04: Compset specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2022-02-16 08:23:04: Pes     specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2022-02-15 11:57:04: /nobackup/CESM/cesm_2.1.3/cime/scripts/create_clone --clone /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_0.9_S0.pop.001 --case /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_0.9_S0.pop.002
+ ---------------------------------------------------
+2022-02-15 11:57:04: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
+ ---------------------------------------------------
+2022-02-15 11:57:04: Compset specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2022-02-15 11:57:04: Pes     specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2022-02-10 17:36:43: /nobackup/CESM/cesm_2.1.3/cime/scripts/create_newcase --compset BWma1850 -res f19_g17 --case /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.TRAPPIST1_0.9_S0.pop.001 --run-unsupported
+ ---------------------------------------------------
+2022-02-10 17:36:43: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
+ ---------------------------------------------------
+2022-02-10 17:36:43: Compset specification file is /nobackup/CESM/cesm_2.1.3/cime_config/config_compsets.xml
+ ---------------------------------------------------
+2022-02-10 17:36:43: Pes     specification file is /nobackup/CESM/cesm_2.1.3/cime_config/config_pes.xml
+ ---------------------------------------------------
+2022-02-10 17:36:43: Forcing is 1850
+ ---------------------------------------------------
+2022-02-10 17:36:43: Using None coupler instances
+ ---------------------------------------------------
+2022-02-10 17:36:43: Component ATM is CAM cam6 physics:WACCM with middle atmosphere chemistry:
+ ---------------------------------------------------
+2022-02-10 17:36:43: ATM_GRID is 1.9x2.5
+ ---------------------------------------------------
+2022-02-10 17:36:43: Component LND is clm5.0:BGC (vert. resol. CN and methane) with prognostic crop:
+ ---------------------------------------------------
+2022-02-10 17:36:43: LND_GRID is 1.9x2.5
+ ---------------------------------------------------
+2022-02-10 17:36:43: Component ICE is Sea ICE (cice) model version 5
+ ---------------------------------------------------
+2022-02-10 17:36:43: ICE_GRID is gx1v7
+ ---------------------------------------------------
+2022-02-10 17:36:43: Component OCN is POP2 EcosystemNitrogen Deposition from Coupler
+ ---------------------------------------------------
+2022-02-10 17:36:43: OCN_GRID is gx1v7
+ ---------------------------------------------------
+2022-02-10 17:36:43: Component ROF is MOSART: MOdel for Scale Adaptive River Transport
+ ---------------------------------------------------
+2022-02-10 17:36:43: ROF_GRID is r05
+ ---------------------------------------------------
+2022-02-10 17:36:43: Component GLC is cism2 (default, higher-order, can run in parallel):cism ice evolution turned off (this is the standard configuration unless you're explicitly interested in ice evolution):
+ ---------------------------------------------------
+2022-02-10 17:36:43: GLC_GRID is gland4
+ ---------------------------------------------------
+2022-02-10 17:36:43: Component WAV is Wave Watch
+ ---------------------------------------------------
+2022-02-10 17:36:43: WAV_GRID is ww3a
+ ---------------------------------------------------
+2022-02-10 17:36:43: ESP_GRID is None
+ ---------------------------------------------------
