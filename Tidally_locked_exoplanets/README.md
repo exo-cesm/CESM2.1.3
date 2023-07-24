@@ -8,12 +8,14 @@ The standard initial simulations placed the substellar point over 180&deg;  long
  
 ## TRAPPIST-1 e simulations
 
-The TRAPPIST-1 e simulations assume the following parameters:
+The TRAPPIST-1 e simulations assume the following parameters which can be edited in user_nl_cam:
 
-**omega** (rotation rate) = 0.00001192352565 seconds<sup>-1</sup>; **sday** (number of seconds in a sidereal day) = 526957 seconds
-**gravit** (gravitational acceleration) = 9.1454 m ss<sup>-2</sup>; **rearth** (radius of the planet) = 5797610 metres
+* **omega** (rotation rate) = 0.00001192352565 seconds<sup>-1</sup>
+* **sday** (number of seconds in a sidereal day) = 526957 seconds
+* **gravit** (gravitational acceleration) = 9.1454 m s<sup>-2</sup>
+* **rearth** (radius of the planet) = 5797610 metres
 
-The following simulations have been used for the paper titled: 'Uncertainties from stellar UV in 3D simulations of TRAPPIST-1e lead to ambiguities in the interpretation of observations', that will be shortly submitted:
+The following simulations have been used for the paper titled: 'Uncertainties from stellar UV in 3D simulations of TRAPPIST-1e lead to ambiguities in the interpretation of observations', that has been submitted:
 
 <ins>**Table 1**</ins>
 
@@ -37,14 +39,14 @@ The following simulations have been used for the paper titled: 'Uncertainties fr
 
 The Proxima Centauri b simulations assume the following parameters:
 
-omega (rotation rate) = 0.000006502178685 seconds<sup>-1</sup>
-sday (number of seconds in a sidereal day) = 966320 seconds
-gravit (gravitational acceleration) = 12.2 m ss<sup>-2</sup>
-rearth (radius of the planet) = 6816970 metres
+* **omega** (rotation rate) = 0.000006502178685 seconds<sup>-1</sup>
+* **sday** (number of seconds in a sidereal day) = 966320 seconds
+* **gravit** (gravitational acceleration) = 12.2 m s<sup>-2</sup>
+* **rearth** (radius of the planet) = 6816970 metres
 
 <ins>**Table 2**</ins>
 
-| Simulation name | Stellar spectrum used   | Total irradiance [Wm<sup>-2</sup>] | Spectrum source | Substellar point                    | O<sub>2</sub> mixing ratio [PAL] |
+| Simulation name | Stellar spectrum used   | Total irradiance [Wm<sup>-2</sup>] | Spectrum source | Substellar point  | O<sub>2</sub> mixing ratio [PAL] |
 | --------------- | ----------------------- | ---------------------------------- | --------------- | ------------------------------------ | ---------|
 | PC b PI       | GJ 551 MUSCLES spectrum | 886  | [GJ 551 MUSCLES spectrum](https://archive.stsci.edu/prepds/muscles/) | 180&deg;  longitude (Pacific ocean) | 1.000 |
 
