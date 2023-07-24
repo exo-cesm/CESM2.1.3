@@ -10,10 +10,14 @@ The following simulations have been used for the paper titled: 'Uncertainties fr
 
 <ins>**Table 1**</ins>
 
-| Simulation name | Stellar spectrum used   | Total irradiance [Wm<sup>-2</sup>] | Spectrum source | Sub stellar point                    | 
-| --------------- | ----------------------- | ---------------------------------- | --------------- | ------------------------------------ |
-| TP-1 e P19 PI       | P19 spectrum | 900  | [Peacock et al. (2019)](https://archive.stsci.edu/hlsp/hazmat) | 180&deg;  longitude (Pacific ocean) |
-| TP-1 e P19 0.1% PAL | P19 spectrum | 900  | [Peacock et al. (2019)](https://archive.stsci.edu/hlsp/hazmat) | 180&deg;  longitude (Pacific ocean) |
+| Simulation name | Stellar spectrum used   | Total irradiance [Wm<sup>-2</sup>] | Spectrum source | Sub stellar point                    | O<sub>2</sub> mixing ratio |
+| --------------- | ----------------------- | ---------------------------------- | --------------- | ------------------------------------ | ---------|
+| TP-1 e P19 PI       | P19 spectrum | 900  | [Peacock et al. (2019)](https://archive.stsci.edu/hlsp/hazmat) | 180&deg;  longitude (Pacific ocean) | 1.000 |
+| TP-1 e P19 PI SPL       | P19 spectrum | 900  | [Peacock et al. (2019)](https://archive.stsci.edu/hlsp/hazmat) | 30&deg;  longitude (Africa) |  1.000 |
+| TP-1 e P19 PI noTL       | P19 spectrum | 900  | [Peacock et al. (2019)](https://archive.stsci.edu/hlsp/hazmat) | 180&deg;  longitude (Pacific ocean) | 1.000 |
+| TP-1 e P19 10% PAL     | P19 spectrum | 900  | [Peacock et al. (2019)](https://archive.stsci.edu/hlsp/hazmat) | 180&deg;  longitude (Pacific ocean) | 0.100 |
+| TP-1 e P19 1% PAL    | P19 spectrum | 900  | [Peacock et al. (2019)](https://archive.stsci.edu/hlsp/hazmat) | 180&deg;  longitude (Pacific ocean) | 0.010 |
+| TP-1 e P19 0.1% PAL       | P19 spectrum | 900  | [Peacock et al. (2019)](https://archive.stsci.edu/hlsp/hazmat) | 180&deg;  longitude (Pacific ocean) | 0.001 |
 | TP-1 e P19 no TL    | P19 spectrum | 900  | [Peacock et al. (2019)](https://archive.stsci.edu/hlsp/hazmat) | 180&deg;  longitude (Pacific ocean) |
 | TP-1 e W21 PI       | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) |
 
