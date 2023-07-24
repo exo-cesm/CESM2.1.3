@@ -10,10 +10,8 @@ The standard initial simulations placed the substellar point over 180&deg;  long
 
 The TRAPPIST-1 e simulations assume the following parameters:
 
-omega (rotation rate) = 0.00001192352565 seconds<sup>-1</sup>
-sday (number of seconds in a sidereal day) = 526957 seconds
-gravit (gravitational acceleration) = 9.1454 m ss<sup>-2</sup>
-rearth (radius of the planet) = 5797610 metres
+**omega** (rotation rate) = 0.00001192352565 seconds<sup>-1</sup>; **sday** (number of seconds in a sidereal day) = 526957 seconds
+**gravit** (gravitational acceleration) = 9.1454 m ss<sup>-2</sup>; **rearth** (radius of the planet) = 5797610 metres
 
 The following simulations have been used for the paper titled: 'Uncertainties from stellar UV in 3D simulations of TRAPPIST-1e lead to ambiguities in the interpretation of observations', that will be shortly submitted:
 
@@ -28,16 +26,11 @@ The following simulations have been used for the paper titled: 'Uncertainties fr
 | TP-1 e P19 1% PAL    | P19 spectrum | 900  | [Peacock et al. (2019)](https://archive.stsci.edu/hlsp/hazmat) | 180&deg;  longitude (Pacific ocean) | 0.010 |
 | TP-1 e P19 0.1% PAL       | P19 spectrum | 900  | [Peacock et al. (2019)](https://archive.stsci.edu/hlsp/hazmat) | 180&deg;  longitude (Pacific ocean) | 0.001 |
 | TP-1 e W21 PI       | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) | 1.000 |
-| TP-1 e W21 PI SPL       | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) |
-1.000 |
-| TP-1 e W21 PI noTL  | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) |
-1.000 |
-| TP-1 e W21 10% PAL  | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) |
-0.100 |
-| TP-1 e W21 1% PAL | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) |
-0.010 |
-| TP-1 e W21 0.1% PAL  | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) |
-0.001 |
+| TP-1 e W21 PI SPL       | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) | 1.000 |
+| TP-1 e W21 PI noTL  | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) | 1.000 |
+| TP-1 e W21 10% PAL  | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) | 0.100 |
+| TP-1 e W21 1% PAL | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) | 0.010 |
+| TP-1 e W21 0.1% PAL  | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) | 0.001 |
 
 
 ## Proxima Centauri b simulations
