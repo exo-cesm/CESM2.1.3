@@ -6,6 +6,15 @@ In each case (apart from the no TL cases, which stands for no tidal locking), th
 
 The standard initial simulations placed the substellar point over 180&deg;  longitude,  0&deg;  latitude, which is in the Pacific ocean. Each simulation uses the BWma1850 WACCM6 configuration. These simulations assume an initial pre-industrial (PI) Earth composition with 1000 hPa surface pressure. SPL is notation for substellar point over land, where the substellar point was placed at 30&deg;  longitude,  0&deg;  latitude, which is over Africa. 0.1% PAL is 1000 times less than the present atmospheric level of oxygen, where PAL stands for present atmospheric level.
  
+## TRAPPIST-1 e simulations
+
+The TRAPPIST-1 e simulations assume the following parameters:
+
+omega (rotation rate) = 0.00001192352565 seconds<sup>-1</sup>
+sday (number of seconds in a sidereal day) = 526957 seconds
+gravit (gravitational acceleration) = 9.1454 m ss<sup>-2</sup>
+rearth (radius of the planet) = 5797610 metres
+
 The following simulations have been used for the paper titled: 'Uncertainties from stellar UV in 3D simulations of TRAPPIST-1e lead to ambiguities in the interpretation of observations', that will be shortly submitted:
 
 <ins>**Table 1**</ins>
@@ -30,6 +39,33 @@ The following simulations have been used for the paper titled: 'Uncertainties fr
 | TP-1 e W21 0.1% PAL  | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) |
 0.001 |
 
+
+## Proxima Centauri b simulations
+
+The Proxima Centauri b simulations assume the following parameters:
+
+omega (rotation rate) = 0.000006502178685 seconds<sup>-1</sup>
+sday (number of seconds in a sidereal day) = 966320 seconds
+gravit (gravitational acceleration) = 12.2 m ss<sup>-2</sup>
+rearth (radius of the planet) = 6816970 metres
+
+<ins>**Table 2**</ins>
+
+| Simulation name | Stellar spectrum used   | Total irradiance [Wm<sup>-2</sup>] | Spectrum source | Substellar point                    | O<sub>2</sub> mixing ratio [PAL] |
+| --------------- | ----------------------- | ---------------------------------- | --------------- | ------------------------------------ | ---------|
+| PC b PI       | GJ 551 MUSCLES spectrum | 886  | [GJ 551 MUSCLES spectrum](https://archive.stsci.edu/prepds/muscles/) | 180&deg;  longitude (Pacific ocean) | 1.000 |
+
+
+## Source file modifications
+
+In src.cam, the following files are require modification:
+chemistry.F90, mo_jshort.F90, mo_photo.F90, mo_tgcm_ubc.F90, orbit.F90, radiation.F90,  upper_bc.F90
+
+In src.cice, the following files are require modification:
+ice_therm_shared.F90
+
+In src.share, the following files are require modification:
+shr_const_mod.F90
 
 ## Fixed lower boundary conditions
 
