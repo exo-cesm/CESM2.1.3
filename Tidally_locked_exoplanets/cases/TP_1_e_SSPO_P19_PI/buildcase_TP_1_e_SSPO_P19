@@ -26,8 +26,10 @@ cd $HOME/cesm_prep/$MY_CASE
 RESTART=/nobackup/Alternative_Earths/restarts/TP1_e/P19_SSPO_PI/0335-08-25/
 USER_NL_CAM=/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_P19_PI/user_nl_cam
 USER_NL_CPL=/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_P19_PI/user_nl_cpl
-SrcMods=/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_P19_PI/SourceMods/src.cam/
-cp $SrcMods/*F90  SourceMods/src.cam/ 
+SrcModsCAM=/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_P19_PI/SourceMods/src.cam/
+SrcModsCICE=/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_P19_PI/SourceMods/src.cice/
+cp $SrcModsCICE/*F90  SourceMods/src.cice/
+cp $SrcModsCAM/*F90  SourceMods/src.cam/ 
 cp $RESTART/* /nobackup/$USER/cesm_sims/$MY_CASE/run/
 cp $USER_NL_CAM .
 cp $USER_NL_CPL .
