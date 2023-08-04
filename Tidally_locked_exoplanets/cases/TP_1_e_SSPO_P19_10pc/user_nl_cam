@@ -23,10 +23,10 @@ rearth = 5797610
  flbc_list              = 'CCL4', 'CF2CLBR', 'CF3BR', 'CFC11', 'CFC113', 'CFC12', 'CH3BR', 'CH3CCL3', 'CH3CL', 'CH4',
          'CO2', 'O2', 'H2', 'HCFC22', 'N2O', 'CFC114', 'CFC115', 'HCFC141B', 'HCFC142B', 'CH2BR2', 'CHBR3',
          'H2402', 'OCS', 'CFC11eq'
-flbc_file = '/nobackup/Alternative_Earths/LBC_files/O2_forcing_0.1pc_o2.nc'
+flbc_file = '/nobackup/Alternative_Earths/LBC_files/O2_forcing_10pc_o2.nc'
 /
 &chem_inparm
-xs_short_file           = '/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_P19_01_pc/xs_short_jpl10_c221026.nc'
+xs_short_file           = '/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/PC_b_SSPO_PI/xs_short_jpl10_c221026.nc'
 /
 &qbo_nl
  qbo_cyclic             = .false.

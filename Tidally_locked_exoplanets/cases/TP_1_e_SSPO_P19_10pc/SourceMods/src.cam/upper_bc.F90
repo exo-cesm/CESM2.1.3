@@ -44,10 +44,10 @@ module upper_bc
   integer            :: f_ndx, hf_ndx
   character(len=32)  :: tgcm_ubc_data_type = 'CYCLICAL'
 
-!G.Cooke 2020 code edit: create variables for indices for O, O2, N, H, H2O,
+!G.Cooke 2020 code edit: create variables for indecies for O, O2, N, H, H2O,
 !CH4, H2
   integer			 :: o_ndx, o2_ndx, n_ndx, h_ndx, h2o_ndx, ch4_ndx, h2_ndx
-  real(r8), parameter :: O2_scale_factor = 1.e-3_r8
+  real(r8), parameter :: O2_scale_factor = 1.e-2_r8
 !G.Cooke 2020 code edit end
 
   logical :: apply_upper_bc = .false.
@@ -381,16 +381,16 @@ end subroutine ubc_setopts
 	endif
 !G.Cooke 2020 code edit: change O, O2, N, H, H2O, CH4 and H2 boundary conditions
     if (o_ndx .GT. 0) then
-      ubc_mmr(:ncol, o_ndx) = ubc_mmr(:ncol, o_ndx)*1e-2_r8
+      ubc_mmr(:ncol, o_ndx) = ubc_mmr(:ncol, o_ndx)*O2_scale_factor
     endif
     if (o2_ndx .GT. 0) then
-      ubc_mmr(:ncol, o2_ndx) = ubc_mmr(:ncol, o2_ndx)*1e-9_r8
+      ubc_mmr(:ncol, o2_ndx) = ubc_mmr(:ncol, o2_ndx)*O2_scale_factor*O2_scale_factor
     endif
     if (n_ndx .GT. 0) then
       ubc_mmr(:ncol, n_ndx) = ubc_mmr(:ncol, n_ndx)*1.2_r8
     endif
     if (h_ndx .GT. 0) then
-      ubc_mmr(:ncol, h_ndx) = ubc_mmr(:ncol, h_ndx)*0.75_r8
+      ubc_mmr(:ncol, h_ndx) = ubc_mmr(:ncol, h_ndx)*0.6_r8
     endif
     if (h2o_ndx .GT. 0) then
       ubc_mmr(:ncol, h2o_ndx) = ubc_mmr(:ncol, h2o_ndx)*1.0e-5_r8
@@ -399,7 +399,7 @@ end subroutine ubc_setopts
       ubc_mmr(:ncol, ch4_ndx) = ubc_mmr(:ncol, ch4_ndx)*1.0e-12_r8
     endif
     if (h2_ndx .GT. 0) then
-      ubc_mmr(:ncol, h2_ndx) = ubc_mmr(:ncol, h2_ndx)*1e-4_r8
+      ubc_mmr(:ncol, h2_ndx) = ubc_mmr(:ncol, h2_ndx)*0.75_r8
     endif
 !G.Cooke 2020 code edit end
 

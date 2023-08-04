@@ -14,9 +14,6 @@ cd $HOME/cesm_prep/$MY_CASE
 ./xmlchange RUN_REFCASE=b.e21.BWma1850.f19_g17.TRAPPIST1_e.SSPO.006
 ./xmlchange RUN_REFDATE=0335-08-25
 ./xmlchange NTASKS=-1
-./xmlchange NTASKS_PER_INST=-1
-./xmlchange NTASKS_ESP=1
-./xmlchange NTASKS_PER_INST_ESP=1
 ./xmlchange JOB_WALLCLOCK_TIME="0:20:00"
 ./xmlchange STOP_OPTION="ndays"
 ./xmlchange STOP_N=1

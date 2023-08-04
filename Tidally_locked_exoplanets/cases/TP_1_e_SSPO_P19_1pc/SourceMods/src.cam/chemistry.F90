@@ -249,9 +249,9 @@ end function chem_is
        if ( lng_name(1:5) .eq. 'num_a' ) then ! aerosol number density
           qmin = 1.e-5_r8
        else if ( m == o3_ndx ) then
-          qmin = 1.e-15_r8
+          qmin = 1.e-17_r8
        else if ( m == ch4_ndx ) then
-          qmin = 1.e-24_r8
+          qmin = 1.e-25_r8
           if ( waccmx_is('ionosphere') .or. waccmx_is('neutral') ) then 
             has_fixed_ubc = .false.   ! diffusive equilibrium at UB
           else
