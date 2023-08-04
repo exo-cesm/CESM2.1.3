@@ -35,6 +35,13 @@ The following simulations have been used for the paper titled: 'Uncertainties fr
 | TP-1 e W21 0.1% PAL  | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) | 0.001 |
 
 
+The following case directories are up to date:
+
+* TP-1 e P19 PI
+* TP-1 e P19 10% PAL
+* TP-1 e P19 1% PAL
+* TP-1 e P19 0.1% PAL
+
 ## Proxima Centauri b simulations
 
 The Proxima Centauri b simulations assume the following parameters:
@@ -50,6 +57,9 @@ The Proxima Centauri b simulations assume the following parameters:
 | --------------- | ----------------------- | ---------------------------------- | --------------- | ------------------------------------ | ---------|
 | PC b PI       | GJ 551 MUSCLES spectrum | 886  | [GJ 551 MUSCLES spectrum](https://archive.stsci.edu/prepds/muscles/) | 180&deg;  longitude (Pacific ocean) | 1.000 |
 
+The following case directories are up to date:
+
+* PC b PI
 
 ## Source file modifications
 
