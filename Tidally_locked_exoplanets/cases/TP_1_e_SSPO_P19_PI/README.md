@@ -1,4 +1,4 @@
-# Proxima Centauri b (with the substellar point over ocean) case setup instructions
+# TRAPPIST-1 e (P19 spectrum with the substellar point over ocean) case setup instructions
 
 ## If setting the case up on ARC4:
 
