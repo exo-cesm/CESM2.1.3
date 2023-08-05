@@ -25,16 +25,9 @@ rearth = 5797610
          'H2402', 'OCS', 'CFC11eq'
 flbc_file = '/nobackup/pygjc/LBC_files/LBC_modern_o2pc.nc'
 /
-&chem_inparm
-xs_short_file           = '/nobackup/pygjc/physics/cross_sections/output/xs_short_jpl10_c221026.nc'
-/
+
 &qbo_nl
  qbo_cyclic             = .false.
  qbo_forcing_file               = '/nobackup/CESM/inputdata/atm/waccm/qbo/qbocoefficients_c151023.nc'
  qbo_use_forcing                = .false.
-/
-&dyn_fv_inparm
-fv_nspltvrm = 64
-fv_nsplit = 64
-fv_nspltrac = 64
 /
