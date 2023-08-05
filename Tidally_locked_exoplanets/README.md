@@ -72,6 +72,8 @@ ice_therm_shared.F90
 In src.share, the following files require modification:
 shr_const_mod.F90
 
+radiation.F90 and orbit.F90 fix the solar zenith angle. upper_bc.F90 and mo_tgcm_ubc.F90 are required to change the upper boundary conditions for several chemicals. chemistry.F90 sets the minimum values for ozone and methane. mo_photo.F90 and mo_jshort.F90 are required to include absorption from carbon dioxide and water vapour in the Schumann-Runge bands. ice_therm_shared.F90 sets a new minimum temperature for ice - in some simulations this minimum temperature may need changing if the ice gets colder than -100 degrees Celcius. shr_const_mod.F90 sets the rotation rate, gravity etc. in the ocean and other models.
+
 ## Fixed lower boundary conditions
 
 The standard globally averaged lower boundary conditions are given in the following table:
