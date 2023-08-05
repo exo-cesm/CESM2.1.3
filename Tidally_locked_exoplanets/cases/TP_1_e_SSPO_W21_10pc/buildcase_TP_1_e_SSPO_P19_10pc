@@ -3,7 +3,7 @@
 module use /nobackup/CESM/module_env
 module load cesm
 
-MY_CASE=b.e21.BWma1850.f19_g17.TRAPPIST1_e.SSPO.P19.10pc_o2.my_case.001
+MY_CASE=b.e21.BWma1850.f19_g17.TRAPPIST1_e.SSPO.10pc_o2.my_case.001
 
 $CIMEROOT/scripts/create_newcase --case $HOME/cesm_prep/$MY_CASE --compset BWma1850 --res f19_g17 --run-unsupported
 
