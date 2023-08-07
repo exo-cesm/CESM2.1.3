@@ -9,6 +9,9 @@ $CIMEROOT/scripts/create_newcase --case $HOME/cesm_prep/$MY_CASE --compset BWma1
 
 cd $HOME/cesm_prep/$MY_CASE
 
+./xmlchange OCN_TRACER_MODULES=iage # turn off ocean BGC tracers
+./xmlchange OCN_CHL_TYPE=diagnostic # use satellite climatology for Chl for shortwave adsorption
+./xmlchange CCSM_BGC=CO2A # turn off passing air-sea CO2 fluxes from ocean to atmosphere
 ./xmlchange RUN_TYPE=branch
 ./xmlchange GET_REFCASE=FALSE
 ./xmlchange RUN_REFCASE=b.e21.BWma1850.f19_g17.PC_b.SSPO.014
@@ -24,14 +27,16 @@ cd $HOME/cesm_prep/$MY_CASE
 ./case.setup
 
 RESTART=/nobackup/Alternative_Earths/restarts/PCb/0279-03-16/
-USER_NL_CAM=/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/PC_b_SSPO_PI/user_nl_cam
-USER_NL_CPL=/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/PC_b_SSPO_PI/user_nl_cpl
-SrcMods=/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/PC_b_SSPO_PI/SourceMods/src.cam/
-cp $SrcMods/chemistry.F90  $SrcMods/mo_jshort.F90  $SrcMods/mo_photo.F90  SourceMods/src.cam/ 
-cp $SrcMods/mo_tgcm_ubc.F90  $SrcMods/upper_bc.F90  SourceMods/src.cam/
+PATH = /nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/PC_b_SSPO_PI/
+USER_NL_CAM=$PATH/user_nl_cam
+USER_NL_CPL=$PATH/user_nl_cpl
+SrcModsCAM=$PATH/SourceMods/src.cam/
+SrcModsCICE=$PATH/SourceMods/src.cice/
+cp $SrcModsCICE/*F90  SourceMods/src.cice/
+cp $SrcModsCAM/*F90  SourceMods/src.cam/
 cp $RESTART/* /nobackup/$USER/cesm_sims/$MY_CASE/run/
-cp $USER_NL_CPL .
 cp $USER_NL_CAM .
+cp $USER_NL_CPL .
 
 ./preview_run
 ./preview_namelists
