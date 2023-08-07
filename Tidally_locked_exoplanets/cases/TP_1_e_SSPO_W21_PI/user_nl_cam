@@ -1,7 +1,7 @@
 ! Users should add all user specific namelist changes below in the form of 
 ! namelist_var = new_namelist_value 
 &solar_data_opts
-solar_irrad_data_file = "/home/home02/pygjc/Solar_Files/TRAPPIST1_flux_at_e_W21.nc"
+solar_irrad_data_file = "/nobackup/Alternative_Earths/Solar_files/TRAPPIST1_flux_at_e_W21.nc"
 /
 &cam_history_nl
  avgflag_pertape                = 'A', 'I', 'A', 'A', 'A', 'A', 'A', 'A', 'I'
@@ -23,11 +23,14 @@ rearth = 5797610
  flbc_list              = 'CCL4', 'CF2CLBR', 'CF3BR', 'CFC11', 'CFC113', 'CFC12', 'CH3BR', 'CH3CCL3', 'CH3CL', 'CH4',
          'CO2', 'O2', 'H2', 'HCFC22', 'N2O', 'CFC114', 'CFC115', 'HCFC141B', 'HCFC142B', 'CH2BR2', 'CHBR3',
          'H2402', 'OCS', 'CFC11eq'
-flbc_file = '/nobackup/pygjc/LBC_files/LBC_modern_o2pc.nc'
+flbc_file = '/nobackup/Alternative_Earths/LBC_files/LBC_modern_o2pc.nc'
 /
-
+&chem_inparm
+xs_short_file           = '/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/PC_b_SSPO_PI/xs_short_jpl10_c221026.nc'
+/
 &qbo_nl
  qbo_cyclic             = .false.
  qbo_forcing_file               = '/nobackup/CESM/inputdata/atm/waccm/qbo/qbocoefficients_c151023.nc'
  qbo_use_forcing                = .false.
 /
+
