@@ -4,7 +4,7 @@
 
 run buildcase_PC_b_SSPO. A case will be created with the name b.e21.BWma1850.f19_g17.PC_b_Ocn.my_case.001. Change the name in buildcase_PC_b_SSPO if you would like a different name.
 
-The restart file for this case is currently at /nobackup/Alternative_Earths/restarts/PCb/0279-03-16/
+The restart file for this case is currently at /nobackup/Alternative_Earths/restarts/PCb/0301-03-16/
 
 A case will be created and the project will be planet with the job queue planet.q. If switching to the main queue, n the case directory, ./xmlchange the project to be blank (no input) and the job queue to be 40core-192G.q.
 
