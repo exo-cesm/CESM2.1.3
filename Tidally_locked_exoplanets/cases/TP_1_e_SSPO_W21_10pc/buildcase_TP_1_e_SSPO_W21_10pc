@@ -30,12 +30,15 @@ cd $HOME/cesm_prep/$MY_CASE
 ./case.setup
 
 RESTART=/nobackup/Alternative_Earths/restarts/TP1_e/W21_SSPO_10pc/0309-08-28/
-USER_NL_CAM=/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_W21_10pc/user_nl_cam
-USER_NL_CPL=/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_W21_10pc/user_nl_cpl
-SrcModsCAM=/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_W21_10pc/SourceMods/src.cam/
-SrcModsCICE=/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_W21_10pc/SourceMods/src.cice/
+LOC=/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_W21_01pc/
+USER_NL_CAM=$LOC/user_nl_cam
+USER_NL_CPL=$LOC/user_nl_cpl
+SrcModsCAM=$LOC/SourceMods/src.cam/
+SrcModsCICE=$LOC/SourceMods/src.cice/
+SrcModsSHARE=$LOC/SourceMods/src.share/
+cp $SrcModsSHARE/*F90  SourceMods/src.share/
 cp $SrcModsCICE/*F90  SourceMods/src.cice/
-cp $SrcModsCAM/*F90  SourceMods/src.cam/ 
+cp $SrcModsCAM/*F90  SourceMods/src.cam/
 cp $RESTART/* /nobackup/$USER/cesm_sims/$MY_CASE/run/
 cp $USER_NL_CAM .
 cp $USER_NL_CPL .
