@@ -16,10 +16,10 @@ MODULE shr_const_mod
 
    real(R8),parameter :: SHR_CONST_PI      = 3.14159265358979323846_R8  ! pi
    real(R8),parameter :: SHR_CONST_CDAY    = 86400.0_R8      ! sec in calendar day ~ sec
-   real(R8),parameter :: SHR_CONST_SDAY    = 140000.0_R8      ! sec in siderial day ~ sec
+   real(R8),parameter :: SHR_CONST_SDAY    = 86164.0_R8      ! sec in siderial day ~ sec
    real(R8),parameter :: SHR_CONST_OMEGA   = 2.0_R8*SHR_CONST_PI/SHR_CONST_SDAY ! earth rot ~ rad/sec
-   real(R8),parameter :: SHR_CONST_REARTH  = 5.797610e6_R8    ! radius of earth ~ m
-   real(R8),parameter :: SHR_CONST_G       = 9.1454_R8      ! acceleration of gravity ~ m/s^2
+   real(R8),parameter :: SHR_CONST_REARTH  = 6.37122e6_R8    ! radius of earth ~ m
+   real(R8),parameter :: SHR_CONST_G       = 9.80616_R8      ! acceleration of gravity ~ m/s^2
 
    real(R8),parameter :: SHR_CONST_STEBOL  = 5.67e-8_R8      ! Stefan-Boltzmann constant ~ W/m^2/K^4
    real(R8),parameter :: SHR_CONST_BOLTZ   = 1.38065e-23_R8  ! Boltzmann's constant ~ J/K/molecule
