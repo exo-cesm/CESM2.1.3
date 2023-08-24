@@ -1,4 +1,4 @@
-# Proxima Centauri b (with the substellar point over ocean) case setup instructions
+# Proxima Centauri b (with the substellar point over land) case setup instructions
 
 ## If setting the case up on ARC4:
 
