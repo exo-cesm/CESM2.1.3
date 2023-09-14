@@ -55,7 +55,11 @@ The Proxima Centauri b simulations assume the following parameters:
 
 | Simulation name | Stellar spectrum used   | Total irradiance [Wm<sup>-2</sup>] | Spectrum source | Substellar point  | O<sub>2</sub> mixing ratio [PAL] |
 | --------------- | ----------------------- | ---------------------------------- | --------------- | ------------------------------------ | ---------|
-| PC b PI       | GJ 551 MUSCLES spectrum | 886  | [GJ 551 MUSCLES spectrum](https://archive.stsci.edu/prepds/muscles/) | 180&deg;  longitude (Pacific ocean) | 1.000 |
+| PC b PI       | GJ 551 MUSCLES spectrum | 884  | [GJ 551 MUSCLES spectrum](https://archive.stsci.edu/prepds/muscles/) | 180&deg;  longitude (Pacific ocean) | 1.000 |
+| PC b PI SPL      | GJ 551 MUSCLES spectrum | 884  | [GJ 551 MUSCLES spectrum](https://archive.stsci.edu/prepds/muscles/) | 30&deg;  longitude (Africa) | 1.000 |
+| PC b 10% PAL      | GJ 551 MUSCLES spectrum | 884  | [GJ 551 MUSCLES spectrum](https://archive.stsci.edu/prepds/muscles/) | 180&deg;  longitude (Pacific ocean) | 0.100 |
+| PC b 1% PAL      | GJ 551 MUSCLES spectrum | 884  | [GJ 551 MUSCLES spectrum](https://archive.stsci.edu/prepds/muscles/) | 180&deg;  longitude (Pacific ocean) | 0.010 |
+| PC b 0.1% PAL     | GJ 551 MUSCLES spectrum | 884  | [GJ 551 MUSCLES spectrum](https://archive.stsci.edu/prepds/muscles/) | 180&deg;  longitude (Pacific ocean) | 0.001 |
 
 The following case directories are up to date:
 
