@@ -1,5 +1,5 @@
 # Code modifications in CESM2.1.3 for exoplanet and paleoclimate simulations
-## Authors: Greg Cooke (gjc53@cam.ac.uk, University of Cambridge, University of Leeds) & Dan Marsh (University of Leeds, NCAR)
+## Authors: Greg Cooke (gjc53@cam.ac.uk, University of Cambridge, University of Leeds) & Dan Marsh (University of Leeds)
 
 ## Introduction
 
