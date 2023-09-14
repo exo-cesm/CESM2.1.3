@@ -1,7 +1,7 @@
 ! Users should add all user specific namelist changes below in the form of 
 ! namelist_var = new_namelist_value 
 &solar_data_opts
-solar_irrad_data_file = "/nobackup/Alternative_Earths/Solar_files/Proxima_Centauri_Adjusted.nc"
+solar_irrad_data_file = "/nobackup/Alternative_Earths/Solar_files/Proxima_Centauri_at_b.nc"
 /
 &physconst_nl
 omega = 0.000006502178685

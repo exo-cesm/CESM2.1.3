@@ -1,7 +1,7 @@
 ! Users should add all user specific namelist changes below in the form of 
 ! namelist_var = new_namelist_value 
 &solar_data_opts
-solar_irrad_data_file = "/nobackup/Alternative_Earths/Solar_files/Proxima_Centauri_Adjusted.nc"
+solar_irrad_data_file = "/nobackup/Alternative_Earths/Solar_files/Proxima_Centauri_at_b.nc"
 /
 &physconst_nl
 omega = 0.000006502178685
@@ -13,7 +13,7 @@ rearth = 6816970
  avgflag_pertape                = 'A', 'I', 'A', 'A', 'A', 'A', 'A', 'A', 'I'
  fincl1         =  'O3', 'H2O', 'H2', 'H', 'CH4','O2','jo2_a','jo2_b','jo3_a','jo3_b','jh2o_a','jh2o_b','jh2o_c','O','CH4_CHML','O1D',
                    'DV_O3','DF_O3','O1D_O3','O_O3','HO2_O3','HO2','H_O3','H','OH_O3','OH','NO2_O3','NO2','NO_O3','NO','CL_O3','CL',
-                   'usr_O_O', 'usr_O_O2', 'NOX','HOX', 'BR_O3','BR','S_O3','S','SO_O3','SO','O3_CHML'
+                   'usr_O_O', 'usr_O_O2', 'NOX','HOX', 'BR_O3','BR','S_O3','S','SO_O3','SO','O3_CHML','H2SO4'
  fincl2         ='O3', 'O', 'O1D', 'OH', 'O2', 'H2O', 'CH4', 'CO2', 'T', 'CO', 'HNO3','N2O','CLDICE','CLDLIQ','ASDIF','ASDIR',
                  'ALDIF','ALDIR', 'SSAVIS','SSAVISdn','H2O2','NO','NO2','PS','TS','U','V'
  mfilt          =              1,  1, 1, 1, 1, 1, 1,  1,  1
@@ -27,14 +27,13 @@ rearth = 6816970
  flbc_list              = 'CCL4', 'CF2CLBR', 'CF3BR', 'CFC11', 'CFC113', 'CFC12', 'CH3BR', 'CH3CCL3', 'CH3CL', 'CH4',
          'CO2', 'O2', 'H2', 'HCFC22', 'N2O', 'CFC114', 'CFC115', 'HCFC141B', 'HCFC142B', 'CH2BR2', 'CHBR3',
          'H2402', 'OCS', 'CFC11eq'
-flbc_file = '/nobackup/Alternative_Earths/LBC_files/LBC_modern_o2pc.nc'
+flbc_file = ' /nobackup/Alternative_Earths/LBC_files/O2_forcing_1pc_o2.nc'
 /
 &chem_inparm
-xs_short_file           = '/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/PC_b_SSPO_PI/xs_short_jpl10_c221026.nc'
+xs_short_file           = '/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/PC_b_SSPO_1pc/xs_short_jpl10_c221026.nc'
 /
 &qbo_nl
  qbo_cyclic             = .false.
  qbo_forcing_file               = '/nobackup/CESM/inputdata/atm/waccm/qbo/qbocoefficients_c151023.nc'
  qbo_use_forcing                = .false.
 /
-

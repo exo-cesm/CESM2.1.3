@@ -1,4 +1,14 @@
-2023-08-04 14:07:33: ./create_clone --clone /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.PC_b.SSPO.014 --case /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.PC_b.SSPO.015 --cime-output-root /nobackup/pygjc/cesm_sims/
+2023-09-05 16:23:35: ./create_clone --clone /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.PC_b.SSPO.015 --case /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.PC_b.SSPO.016 --cime-output-root /nobackup/pygjc/cesm_sims/
+ ---------------------------------------------------
+2023-09-05 16:23:35: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
+ ---------------------------------------------------
+2023-09-05 16:23:35: Compset specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2023-09-05 16:23:35: Pes     specification file is /nobackup/CESM/cesm_2.1.3/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2023-08-04 14:07:33: ./create_clone --clone /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.PC_b.SSPO.014 --case /home/home02/pygjc/cesm_prep/b.e21.BWma1850.f19_g17.PC_b.SSPO.015 --cime-output-root /nobackup/pygjc/cesm_sims/
  ---------------------------------------------------
 2023-08-04 14:07:33: Compset longname is 1850_CAM60%WCCM_CLM50%BGC-CROP_CICE_POP2%ECO%NDEP_MOSART_CISM2%NOEVOLVE_WW3
  ---------------------------------------------------

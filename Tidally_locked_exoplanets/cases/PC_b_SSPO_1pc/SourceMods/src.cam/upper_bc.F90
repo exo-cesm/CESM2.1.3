@@ -47,7 +47,7 @@ module upper_bc
 !G.Cooke 2020 code edit: create variables for indecies for O, O2, N, H, H2O,
 !CH4, H2
   integer			 :: o_ndx, o2_ndx, n_ndx, h_ndx, h2o_ndx, ch4_ndx, h2_ndx
-  real(r8), parameter :: O2_scale_factor = 1.e-2_r8
+  real(r8), parameter :: O2_scale_factor = 1.e-4_r8
 !G.Cooke 2020 code edit end
 
   logical :: apply_upper_bc = .false.
@@ -381,10 +381,10 @@ end subroutine ubc_setopts
 	endif
 !G.Cooke 2020 code edit: change O, O2, N, H, H2O, CH4 and H2 boundary conditions
     if (o_ndx .GT. 0) then
-      ubc_mmr(:ncol, o_ndx) = ubc_mmr(:ncol, o_ndx)*O2_scale_factor
+      ubc_mmr(:ncol, o_ndx) = ubc_mmr(:ncol, o_ndx)*1.0e-1_r8
     endif
     if (o2_ndx .GT. 0) then
-      ubc_mmr(:ncol, o2_ndx) = ubc_mmr(:ncol, o2_ndx)*O2_scale_factor*O2_scale_factor
+      ubc_mmr(:ncol, o2_ndx) = ubc_mmr(:ncol, o2_ndx)*1.0e-10_r8
     endif
     if (n_ndx .GT. 0) then
       ubc_mmr(:ncol, n_ndx) = ubc_mmr(:ncol, n_ndx)*1.2_r8
