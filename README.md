@@ -22,7 +22,7 @@ If anything is unclear, please get in touch with Greg at gjc53@cam.ac.uk.
 
 ## Varied O<sub>2</sub> simulations (paleoclimates / Earth-analogue exoplanets)
 
-These simulations were used to calculate new ozone estimates from 0.1% the present atmospheric level (PAL) of O<sub>2</sub> to 150% PAL of O<sub>2</sub> - see [Cooke et al. 2022a](https://doi.org/10.1098/rsos.211165). They were then used to predict time-varying direct imaging of Earth-analogue exoplanets - see [Cooke et al. 2023](https://doi.org/10.1093/mnras/stac2604).
+These simulations were used to calculate new ozone estimates from 0.1% the present atmospheric level (PAL) of O<sub>2</sub> to 150% PAL of O<sub>2</sub> - see [Cooke et al. 2022](https://doi.org/10.1098/rsos.211165). They were then used to predict time-varying direct imaging of Earth-analogue exoplanets - see [Cooke et al. 2023](https://doi.org/10.1093/mnras/stac2604).
 
 Instructions on how to set up these cases are found in the [_O2\_Earth\_analogues\_folder](/O2_Earth_analogues).
 
