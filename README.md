@@ -24,7 +24,7 @@ If anything is unclear, please get in touch with Greg at gjc53@cam.ac.uk.
 
 These simulations were used to calculate new ozone estimates from 0.1% the present atmospheric level (PAL) of O<sub>2</sub> to 150% PAL of O<sub>2</sub> - see [Cooke et al. 2022](https://doi.org/10.1098/rsos.211165). They were then used to predict time-varying direct imaging of Earth-analogue exoplanets - see [Cooke et al. 2023](https://doi.org/10.1093/mnras/stac2604).
 
-Instructions on how to set up these cases are found in the [_O2\_Earth\_analogues\_folder](/O2_Earth_analogues).
+Instructions on how to set up these cases are found in the [O2\_Earth\_analogues\_folder](/O2_Earth_analogues).
 
 A list of cases (where PAL means present atmospheric level) are described in the table below:
 
@@ -65,7 +65,7 @@ Since these simulations were performed, we (Dan, Greg, and Doug Kinnison) have u
 
 ## Tidally locked exoplanet scenarios
 
-Instructions on how to set up these cases are found in the [_Tidally\_locked\_exoplanets\_folder](/Tidally_locked_exoplanets).
+Instructions on how to set up these cases are found in the [Tidally\_locked\_exoplanets\_folder](/Tidally_locked_exoplanets).
 
 <ins>**Table 3**</ins>
 
