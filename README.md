@@ -56,12 +56,12 @@ Since these simulations were performed, we (Dan, Greg, and Doug Kinnison) have u
 
 | Simulation name   | Description |
 | ---------------   | ----------- |
-| [10% PAL 10x lower halogens]    | 10% PAL of O<sub>2</sub> with 10x lower amounts of halogen molecules, including CH<sub>3</sub>Cl and CH<sub>3</sub>Br |
-| [1% PAL 10x lower halogens]     | 1% PAL of O<sub>2</sub> with 10x lower amounts of halogen molecules, including CH<sub>3</sub>Cl and CH<sub>3</sub>Br |
-| [1% PAL 1e9x lower halogens]    | 1% PAL of O<sub>2</sub> with 1e9x lower amounts of halogen molecules, including CH<sub>3</sub>Cl and CH<sub>3</sub>Br |
-| [10% PAL 1D LBC and SRB]    | 10% PAL of O<sub>2</sub> with Kasting 1D model lower boundary conditions and absorption for HO<sub>2</sub>O and CO<sub>2</sub> in the Schumann-Runge Bands included |
-| [1% PAL 1D LBC and SRB]    | 1% PAL of O<sub>2</sub> with Kasting 1D model lower boundary conditions and absorption for HO<sub>2</sub>O and CO<sub>2</sub> in the Schumann-Runge Bands included |
-| [0.1% PAL 1D LBC and SRB]    | 0.1% PAL of O<sub>2</sub> with Kasting 1D model lower boundary conditions and absorption for HO<sub>2</sub>O and CO<sub>2</sub> in the Schumann-Runge Bands included |
+| 10% PAL 10x lower halogens    | 10% PAL of O<sub>2</sub> with 10x lower amounts of halogen molecules, including CH<sub>3</sub>Cl and CH<sub>3</sub>Br |
+| 1% PAL 10x lower halogens     | 1% PAL of O<sub>2</sub> with 10x lower amounts of halogen molecules, including CH<sub>3</sub>Cl and CH<sub>3</sub>Br |
+| 1% PAL 1e9x lower halogens    | 1% PAL of O<sub>2</sub> with 1e9x lower amounts of halogen molecules, including CH<sub>3</sub>Cl and CH<sub>3</sub>Br |
+| 10% PAL 1D LBC and SRB    | 10% PAL of O<sub>2</sub> with Kasting 1D model lower boundary conditions and absorption for HO<sub>2</sub>O and CO<sub>2</sub> in the Schumann-Runge Bands included |
+| 1% PAL 1D LBC and SRB   | 1% PAL of O<sub>2</sub> with Kasting 1D model lower boundary conditions and absorption for HO<sub>2</sub>O and CO<sub>2</sub> in the Schumann-Runge Bands included |
+| 0.1% PAL 1D LBC and SRB    | 0.1% PAL of O<sub>2</sub> with Kasting 1D model lower boundary conditions and absorption for HO<sub>2</sub>O and CO<sub>2</sub> in the Schumann-Runge Bands included |
 
 ## Tidally locked exoplanet scenarios
 
@@ -71,22 +71,22 @@ Instructions on how to set up these cases are found in the [_Tidally\_locked\_ex
 
 | Simulation name       | Description |
 | --------------------- | ----------- |
-| TP-1e P19 PI         | P19 spectrum, PI composition, tidally locked TP-1e, substellar point over Pacific Ocean |
-| TP-1e P19 PI SPL     | P19 spectrum, PI composition, tidally locked TP-1e, substellar point over Africa |
-| TP-1e P19 PI noTL    | P19 spectrum, PI composition, tidally locked TP-1e, not tidally locked (1 day rotation) 
-| TP-1e P19 10% PAL    | P19 spectrum, 10% PAL of O<sub>2</sub>, tidally locked TP-1e, substellar point over Pacific Ocean |
-| TP-1e P19 1% PAL     | P19 spectrum, 1% PAL of O<sub>2</sub>, tidally locked TP-1e, substellar point over Pacific Ocean |
-| TP-1e P19 0.1% PAL   | P19 spectrum, 0.1% PAL of O<sub>2</sub>, tidally locked TP-1e, substellar point over Pacific Ocean |
-| TP-1e W21 PI         | W21 spectrum, PI composition, tidally locked TP-1e, substellar point over Pacific Ocean |
-| TP-1e W21 PI SPL     | W21 spectrum, PI composition, tidally locked TP-1e, substellar point over Africa |
-| TP-1e W21 PI noTL    | W21 spectrum, PI composition, tidally locked TP-1e, not tidally locked (1 day rotation) |
-| TP-1e W21 10% PAL    | W21 spectrum, 10% PAL of O<sub>2</sub>, tidally locked TP-1e, substellar point over Pacific Ocean |
-| TP-1e W21 1% PAL     | W21 spectrum, 1% PAL of O<sub>2</sub>, tidally locked TP-1e, substellar point over Pacific Ocean |
-| TP-1e W21 0.1% PAL   | W21 spectrum, 0.1% PAL of O<sub>2</sub>, tidally locked TP-1e, substellar point over Pacific Ocean |
-| PCb PI               | GJ551 MUSCLES spectrum, PI composition, tidally locked PC b, substellar point over Pacific Ocean |
-| PCb PI SPL           | GJ551 MUSCLES spectrum, PI composition, tidally locked PC b, substellar point  over Africa |
-| PCb 10% PAL          | GJ551 MUSCLES spectrum, 10% PAL of O<sub>2</sub>, tidally locked PC b, substellar point over Pacific Ocean |
-| PCb 1% PAL           | GJ551 MUSCLES spectrum, 1% PAL of O<sub>2</sub>, tidally locked PC b, substellar point over Pacific Ocean |
-| PCb 0.1% PAL         | GJ551 MUSCLES spectrum, 0.1%PAL of O<sub>2</sub>, tidally locked PC b, substellar point over Pacific Ocean |
+| [TP-1e P19 PI](/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_P19_PI) | P19 spectrum, PI composition, tidally locked TP-1e, substellar point over Pacific Ocean |
+| [TP-1e P19 PI SPL](/Tidally_locked_exoplanets/cases/TP_1_e_SSPL_P19_PI)  | P19 spectrum, PI composition, tidally locked TP-1e, substellar point over Africa |
+| [TP-1e P19 PI noTL](/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_P19_PI_noTL)  | P19 spectrum, PI composition, tidally locked TP-1e, not tidally locked (1 day rotation) 
+| [TP-1e P19 10% PAL](/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_P19_10pc) | P19 spectrum, 10% PAL of O<sub>2</sub>, tidally locked TP-1e, substellar point over Pacific Ocean |
+| [TP-1e P19 1% PAL](/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_P19_1pc) | P19 spectrum, 1% PAL of O<sub>2</sub>, tidally locked TP-1e, substellar point over Pacific Ocean |
+| [TP-1e P19 0.1% PAL](/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_P19_01pc) | P19 spectrum, 0.1% PAL of O<sub>2</sub>, tidally locked TP-1e, substellar point over Pacific Ocean |
+| [TP-1e W21 PI](/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_W21_PI) | W21 spectrum, PI composition, tidally locked TP-1e, substellar point over Pacific Ocean |
+| [TP-1e W21 PI SPL](/Tidally_locked_exoplanets/cases/TP_1_e_SSPL_W21_PI) | W21 spectrum, PI composition, tidally locked TP-1e, substellar point over Africa |
+| [TP-1e W21 PI noTL](/Tidally_locked_exoplanets/cases/TP_1_e_W21_PI_noTL) | W21 spectrum, PI composition, tidally locked TP-1e, not tidally locked (1 day rotation) |
+| [TP-1e W21 10% PAL](/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_W21_10pc) | W21 spectrum, 10% PAL of O<sub>2</sub>, tidally locked TP-1e, substellar point over Pacific Ocean |
+| [TP-1e W21 1% PA](/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_W21_1pc) | W21 spectrum, 1% PAL of O<sub>2</sub>, tidally locked TP-1e, substellar point over Pacific Ocean |
+| [TP-1e W21 0.1% PAL](/Tidally_locked_exoplanets/cases/TP_1_e_SSPO_W21_01pc) | W21 spectrum, 0.1% PAL of O<sub>2</sub>, tidally locked TP-1e, substellar point over Pacific Ocean |
+| [PCb PI](/Tidally_locked_exoplanets/cases/PC_b_SSPO_PI) | GJ551 MUSCLES spectrum, PI composition, tidally locked PC b, substellar point over Pacific Ocean |
+| [PCb PI SPL](/Tidally_locked_exoplanets/cases/PC_b_SSPL_PI) | GJ551 MUSCLES spectrum, PI composition, tidally locked PC b, substellar point  over Africa |
+| [PCb 10% PAL](/Tidally_locked_exoplanets/cases/PC_b_SSPO_10pc) | GJ551 MUSCLES spectrum, 10% PAL of O<sub>2</sub>, tidally locked PC b, substellar point over Pacific Ocean |
+| [PCb 1% PAL](/Tidally_locked_exoplanets/cases/PC_b_SSPO_1pc)  | GJ551 MUSCLES spectrum, 1% PAL of O<sub>2</sub>, tidally locked PC b, substellar point over Pacific Ocean |
+| [PCb 0.1% PAL](/Tidally_locked_exoplanets/cases/PC_b_SSPO_01pc) | GJ551 MUSCLES spectrum, 0.1%PAL of O<sub>2</sub>, tidally locked PC b, substellar point over Pacific Ocean |
 
 The tidally locked simulations cover several cases for known M dwarf terrestrial exoplanets. The basic modifications include changing the rotation rate of the model, changing the radius and gravitational acceleration, and fixing the solar zenith angle (in order to fix the substellar point). The substellar point is placed either in the middle of the Pacific ocean at 180&deg; longitude, or at 30&deg; longitude in Africa. Additionally, depending on the exoplanet in question, the solar file will need to be changed and scaled to the irradiance that the planet recieves. The Stellar Wind and Irradiance Model ([SWIM](https://github.com/jack-eddy-symposium/exoplanetary-impact/tree/main/SWIM)) has been developed for this purpose. The TRAPPIST-1e (TP-1e) simulations were originally started in 2020. In 2021, the Mega-MUSCLES spectrum (W21) became available, so this spectrum was introduced in order to compare the differences that arise in the simulations between the two spectra. 
