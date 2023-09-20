@@ -11,6 +11,13 @@ Namelist file changes, boundary conditions, solar spectra input files, and sourc
 
 The location of restarts directories will also be given and are currently on the ARC4 supercomputer at the University of Leeds.
 
+## Publications
+
+* Ji et al
+* Cooke et al. MNRAS
+* * Cooke G. J., Marsh D. R., Walsh C., Black B. and Lamarque J.-F. 2022, A revised lower estimate of ozone columns during Earth’s oxygenated history, _R. Soc. open sci.9211165211165_, [https://doi.org/10.1098/rsos.211165](https://doi.org/10.1098/rsos.211165).
+
+
 ## Varied O<sub>2</sub> simulations (paleoclimates / Earth-analogue exoplanets)
 
 These simulations were used to calculate new ozone estimates from 0.1% the present atmospheric level (PAL) of O<sub>2</sub> to 150% PAL of O<sub>2</sub> - see [Cooke et al. 2022a](https://doi.org/10.1098/rsos.211165). They were then used to predict time-varying direct imaging of Earth-analogue exoplanets - see [Cooke et al. 2023](https://doi.org/10.1093/mnras/stac2604).
