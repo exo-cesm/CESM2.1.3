@@ -13,10 +13,9 @@ The location of restarts directories will also be given and are currently on the
 
 ## Publications
 
-* Ji et al
-* Cooke et al. MNRAS
-* * Cooke G. J., Marsh D. R., Walsh C., Black B. and Lamarque J.-F. 2022, A revised lower estimate of ozone columns during Earth’s oxygenated history, _R. Soc. open sci.9211165211165_, [https://doi.org/10.1098/rsos.211165](https://doi.org/10.1098/rsos.211165).
-
+* Ji A., Kasting J. F., Cooke G. J., Marsh D. R. and Tsigaridis K. 2023, Comparison between ozone column depths and methane lifetimes computed by one- and three-dimensional models at different atmospheric O2 levels, _R. Soc. open sci_, 10230056230056, [https://doi.org/10.1098/rsos.230056](https://doi.org/10.1098/rsos.230056).
+* G J Cooke, D R Marsh, C Walsh, S Rugheimer, G L Villanueva, Variability due to climate and chemistry in observations of oxygenated Earth-analogue exoplanets, Monthly Notices of the Royal Astronomical Society, Volume 518, Issue 1, January 2023, Pages 206–219, [https://doi.org/10.1093/mnras/stac2604](https://doi.org/10.1093/mnras/stac2604).
+* Cooke G. J., Marsh D. R., Walsh C., Black B. and Lamarque J.-F. 2022, A revised lower estimate of ozone columns during Earth’s oxygenated history, _R. Soc. open sci_, 9211165211165, [https://doi.org/10.1098/rsos.211165](https://doi.org/10.1098/rsos.211165).
 
 ## Varied O<sub>2</sub> simulations (paleoclimates / Earth-analogue exoplanets)
 
