@@ -50,13 +50,24 @@ A list of cases (where PAL means present atmospheric level) are described in the
 | [0.5% PAL](/O2_Earth_analogues/cases/0.5pc_PAL_O2)            | 0.5% PAL of O<sub>2</sub>   |
 | [0.1% PAL](/O2_Earth_analogues/cases/0.1pc_PAL_O2)            | 0.1% PAL of O<sub>2</sub>   |
 
-Since these simulations were performed, we (Dan, Greg, and Doug Kinnison) have updated the source code to include absorption in the Schumann-Runge bands, and also added in previously missing cross sections. Whilst these updates do not make an appreciable difference for the pre-industrial atmosphere, it is now recommended to include these updates when investigating low-O<sub>2</sub> atmospheres (for Earth, this occurs at 1\% PAL and lower).
+Since these simulations were performed, we (Dan, Greg, and Doug Kinnison) have updated the source code to include absorption in the Schumann-Runge bands, and also added in previously missing cross sections. Whilst these updates do not make an appreciable difference for the pre-industrial atmosphere, it is now recommended to include these updates when investigating low-O<sub>2</sub> atmospheres (for Earth, this occurs at 1\% PAL and lower). For the understanding of why this is important, see [Ji et al., 2023](https://doi.org/10.1098/rsos.230056). The following simulations were performed for [Ji et al., 2023](https://doi.org/10.1098/rsos.230056).
+
+<ins>**Table 2**</ins>
+
+| Simulation name   | Description |
+| ---------------   | ----------- |
+| [10% PAL 10x lower halogens]    | 10% PAL of O<sub>2</sub> with 10x lower amounts of halogen molecules, including CH<sub>3</sub>Cl and CH<sub>3</sub>Br |
+| [1% PAL 10x lower halogens]     | 1% PAL of O<sub>2</sub> with 10x lower amounts of halogen molecules, including CH<sub>3</sub>Cl and CH<sub>3</sub>Br |
+| [1% PAL 1e9x lower halogens]    | 1% PAL of O<sub>2</sub> with 1e9x lower amounts of halogen molecules, including CH<sub>3</sub>Cl and CH<sub>3</sub>Br |
+| [10% PAL 1D LBC and SRB]    | 10% PAL of O<sub>2</sub> with Kasting 1D model lower boundary conditions and absorption for HO<sub>2</sub>O and CO<sub>2</sub> in the Schumann-Runge Bands included |
+| [1% PAL 1D LBC and SRB]    | 1% PAL of O<sub>2</sub> with Kasting 1D model lower boundary conditions and absorption for HO<sub>2</sub>O and CO<sub>2</sub> in the Schumann-Runge Bands included |
+| [0.1% PAL 1D LBC and SRB]    | 0.1% PAL of O<sub>2</sub> with Kasting 1D model lower boundary conditions and absorption for HO<sub>2</sub>O and CO<sub>2</sub> in the Schumann-Runge Bands included |
 
 ## Tidally locked exoplanet scenarios
 
 Instructions on how to set up these cases are found in the [_Tidally\_locked\_exoplanets\_folder](/Tidally_locked_exoplanets).
 
-<ins>**Table 2**</ins>
+<ins>**Table 3**</ins>
 
 | Simulation name       | Description |
 | --------------------- | ----------- |
