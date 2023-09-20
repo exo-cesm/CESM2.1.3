@@ -1,4 +1,4 @@
-# 1% PAL case setup instructions
+# 0.1% PAL case setup instructions
 
 ## If setting the case up on ARC4:
 
