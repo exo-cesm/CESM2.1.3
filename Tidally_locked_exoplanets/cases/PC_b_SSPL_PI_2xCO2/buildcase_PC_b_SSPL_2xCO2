@@ -1,0 +1,48 @@
+#!/usr/bin/bash
+
+module use /nobackup/CESM/module_env
+module load cesm
+
+MY_CASE=b.e21.BWma1850.f19_g17.PC_b_Lnd.2xCO2.my_case.001
+
+$CIMEROOT/scripts/create_newcase --case $HOME/cesm_prep/$MY_CASE --compset BWma1850 --res f19_g17 --run-unsupported
+
+cd $HOME/cesm_prep/$MY_CASE
+
+./xmlchange OCN_TRACER_MODULES=iage # turn off ocean BGC tracers
+./xmlchange OCN_CHL_TYPE=diagnostic # use satellite climatology for Chl for shortwave adsorption
+./xmlchange CCSM_BGC=CO2A # turn off passing air-sea CO2 fluxes from ocean to atmosphere
+./xmlchange RUN_TYPE=branch
+./xmlchange GET_REFCASE=FALSE
+./xmlchange RUN_REFCASE=b.e21.BWma1850.f19_g17.PC_b.SSPL.2xCO2.004
+./xmlchange RUN_REFDATE=0161-12-16
+./xmlchange NTASKS=-1
+./xmlchange NTASKS_PER_INST=-1
+./xmlchange NTASKS_ESP=1
+./xmlchange NTASKS_PER_INST_ESP=1
+./xmlchange JOB_WALLCLOCK_TIME="0:20:00"
+./xmlchange STOP_OPTION="ndays"
+./xmlchange STOP_N=1
+./xmlchange REST_OPTION="ndays"
+./xmlchange REST_N=1
+./xmlchange --force JOB_QUEUE=planet.q
+./xmlchange PROJECT=planet
+./case.setup
+
+RESTART=/nobackup/Alternative_Earths/restarts/PCb/PI_SPL_2xCO2/0161-12-16/
+LOC=/nobackup/Alternative_Earths/ExoCESM/CESM2.1.3/Tidally_locked_exoplanets/cases/PC_b_SSPL_PI_2xCO2/
+USER_NL_CAM=$LOC/user_nl_cam
+USER_NL_CPL=$LOC/user_nl_cpl
+SrcModsCAM=$LOC/SourceMods/src.cam/
+SrcModsCICE=$LOC/SourceMods/src.cice/
+SrcModsSHARE=$LOC/SourceMods/src.share/
+cp $SrcModsSHARE/*F90  SourceMods/src.share/
+cp $SrcModsCICE/*F90  SourceMods/src.cice/
+cp $SrcModsCAM/*F90  SourceMods/src.cam/
+cp $RESTART/* /nobackup/$USER/cesm_sims/$MY_CASE/run/
+cp $USER_NL_CAM .
+cp $USER_NL_CPL .
+
+./preview_run
+./preview_namelists
+./check_input_data
