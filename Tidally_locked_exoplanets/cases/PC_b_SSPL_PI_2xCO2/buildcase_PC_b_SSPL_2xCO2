@@ -14,7 +14,7 @@ cd $HOME/cesm_prep/$MY_CASE
 ./xmlchange CCSM_BGC=CO2A # turn off passing air-sea CO2 fluxes from ocean to atmosphere
 ./xmlchange RUN_TYPE=branch
 ./xmlchange GET_REFCASE=FALSE
-./xmlchange RUN_REFCASE=b.e21.BWma1850.f19_g17.PC_b.SSPL.2xCO2.004
+./xmlchange RUN_REFCASE=b.e21.BWma1850.f19_g17.PC_b.SSPL.2xCO2.003
 ./xmlchange RUN_REFDATE=0161-12-16
 ./xmlchange NTASKS=-1
 ./xmlchange NTASKS_PER_INST=-1
