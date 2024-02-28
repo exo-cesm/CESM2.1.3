@@ -90,3 +90,12 @@ Instructions on how to set up these cases are found in the [Tidally\_locked\_exo
 | [PCb 0.1% PAL](/Tidally_locked_exoplanets/cases/PC_b_SSPO_01pc) | GJ551 MUSCLES spectrum, 0.1%PAL of O<sub>2</sub>, tidally locked PC b, substellar point over Pacific Ocean |
 
 The tidally locked simulations cover several cases for known M dwarf terrestrial exoplanets. The basic modifications include changing the rotation rate of the model, changing the radius and gravitational acceleration, and fixing the solar zenith angle (in order to fix the substellar point). The substellar point is placed either in the middle of the Pacific ocean at 180&deg; longitude, or at 30&deg; longitude in Africa. Additionally, depending on the exoplanet in question, the solar file will need to be changed and scaled to the irradiance that the planet recieves. The Stellar Wind and Irradiance Model ([SWIM](https://github.com/jack-eddy-symposium/exoplanetary-impact/tree/main/SWIM)) has been developed for this purpose. The TRAPPIST-1e (TP-1e) simulations were originally started in 2020. In 2021, the Mega-MUSCLES spectrum (W21) became available, so this spectrum was introduced in order to compare the differences that arise in the simulations between the two spectra. 
+
+## Other TRAPPIST-1 scenarios
+
+Coming soon
+
+## Other exoplanet scenarios
+
+Coming soon
+
