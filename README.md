@@ -15,7 +15,7 @@ If anything is unclear, please get in touch with Greg at gjc53@cam.ac.uk.
 
 ## Publications
 
-* Cooke G. J., Marsh D. R., Walsh C., Youngblood A., _Astrophsical Journal_, Accepted, 2023.
+* Cooke G. J., Marsh D. R., Walsh C., Youngblood A., 2023, Degenerate Interpretations of O3 Spectral Features in Exoplanet Atmosphere Observations Due to Stellar UV Uncertainties: A 3D Case Study with TRAPPIST-1 e, _Astrophsical Journal_, [https://iopscience.iop.org/article/10.3847/1538-4357/ad0381/meta](https://iopscience.iop.org/article/10.3847/1538-4357/ad0381/meta).
 * Ji A., Kasting J. F., Cooke G. J., Marsh D. R. and Tsigaridis K. 2023, Comparison between ozone column depths and methane lifetimes computed by one- and three-dimensional models at different atmospheric O2 levels, _R. Soc. open sci_, 10230056230056, [https://doi.org/10.1098/rsos.230056](https://doi.org/10.1098/rsos.230056).
 * G J Cooke, D R Marsh, C Walsh, S Rugheimer, G L Villanueva, Variability due to climate and chemistry in observations of oxygenated Earth-analogue exoplanets, Monthly Notices of the Royal Astronomical Society, Volume 518, Issue 1, January 2023, Pages 206–219, [https://doi.org/10.1093/mnras/stac2604](https://doi.org/10.1093/mnras/stac2604).
 * Cooke G. J., Marsh D. R., Walsh C., Black B. and Lamarque J.-F. 2022, A revised lower estimate of ozone columns during Earth’s oxygenated history, _R. Soc. open sci_, 9211165211165, [https://doi.org/10.1098/rsos.211165](https://doi.org/10.1098/rsos.211165).
