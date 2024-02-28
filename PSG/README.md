@@ -21,14 +21,10 @@ The chemistry and parameters required for a baseline case where Earth-like biosi
 
 ## Questions to ask yourself
 
-Has the planet been defined relative to the star correctly?
-
-Has the observer been defined relative to the system correctly?
-
-Is the distance to the system correct?
-
-Are you using a coronagraph? If so, is the orbit actually observable?
-
-Are you interested in noise? If so, are all parameters reasonable and realistic?
+* Has the planet been defined relative to the star correctly?
+* Has the observer been defined relative to the system correctly?
+* Is the distance to the system correct?
+* Are you using a coronagraph? If so, is the orbit actually observable?
+* Are you interested in noise? If so, are all parameters reasonable and realistic?
 
  
