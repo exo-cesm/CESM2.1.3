@@ -15,7 +15,7 @@ If anything is unclear, please get in touch with Greg at gjc53@cam.ac.uk.
 
 ## Publications
 
-* Cooke G. J., Marsh D. R., Walsh C., Youngblood A., _Astrophsical Journal_, Accepted, 2023.
+* Cooke G. J., Marsh D. R., Walsh C., Youngblood A., 2023, Degenerate Interpretations of O3 Spectral Features in Exoplanet Atmosphere Observations Due to Stellar UV Uncertainties: A 3D Case Study with TRAPPIST-1 e, _Astrophsical Journal_, [https://iopscience.iop.org/article/10.3847/1538-4357/ad0381/meta](https://iopscience.iop.org/article/10.3847/1538-4357/ad0381/meta).
 * Ji A., Kasting J. F., Cooke G. J., Marsh D. R. and Tsigaridis K. 2023, Comparison between ozone column depths and methane lifetimes computed by one- and three-dimensional models at different atmospheric O2 levels, _R. Soc. open sci_, 10230056230056, [https://doi.org/10.1098/rsos.230056](https://doi.org/10.1098/rsos.230056).
 * G J Cooke, D R Marsh, C Walsh, S Rugheimer, G L Villanueva, Variability due to climate and chemistry in observations of oxygenated Earth-analogue exoplanets, Monthly Notices of the Royal Astronomical Society, Volume 518, Issue 1, January 2023, Pages 206–219, [https://doi.org/10.1093/mnras/stac2604](https://doi.org/10.1093/mnras/stac2604).
 * Cooke G. J., Marsh D. R., Walsh C., Black B. and Lamarque J.-F. 2022, A revised lower estimate of ozone columns during Earth’s oxygenated history, _R. Soc. open sci_, 9211165211165, [https://doi.org/10.1098/rsos.211165](https://doi.org/10.1098/rsos.211165).
@@ -90,3 +90,12 @@ Instructions on how to set up these cases are found in the [Tidally\_locked\_exo
 | [PCb 0.1% PAL](/Tidally_locked_exoplanets/cases/PC_b_SSPO_01pc) | GJ551 MUSCLES spectrum, 0.1%PAL of O<sub>2</sub>, tidally locked PC b, substellar point over Pacific Ocean |
 
 The tidally locked simulations cover several cases for known M dwarf terrestrial exoplanets. The basic modifications include changing the rotation rate of the model, changing the radius and gravitational acceleration, and fixing the solar zenith angle (in order to fix the substellar point). The substellar point is placed either in the middle of the Pacific ocean at 180&deg; longitude, or at 30&deg; longitude in Africa. Additionally, depending on the exoplanet in question, the solar file will need to be changed and scaled to the irradiance that the planet recieves. The Stellar Wind and Irradiance Model ([SWIM](https://github.com/jack-eddy-symposium/exoplanetary-impact/tree/main/SWIM)) has been developed for this purpose. The TRAPPIST-1e (TP-1e) simulations were originally started in 2020. In 2021, the Mega-MUSCLES spectrum (W21) became available, so this spectrum was introduced in order to compare the differences that arise in the simulations between the two spectra. 
+
+## Other TRAPPIST-1 scenarios
+
+Coming soon
+
+## Other exoplanet scenarios
+
+Coming soon
+
