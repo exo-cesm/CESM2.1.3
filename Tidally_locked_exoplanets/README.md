@@ -9,6 +9,7 @@ The standard initial simulations placed the substellar point over 180&deg;  long
 ## Publications
 
 * Cooke _et al_. (2023), Degenerate interpretations of O<sub>3</sub> spectral features in exoplanet atmosphere observations due to stellar UV uncertainties: a 3D case study with TRAPPIST-1e, _ApJ_, [https://iopscience.iop.org/article/10.3847/1538-4357/ad0381/meta](https://iopscience.iop.org/article/10.3847/1538-4357/ad0381/meta).
+* Article in review, (2024).
  
 ## TRAPPIST-1 e simulations
 
