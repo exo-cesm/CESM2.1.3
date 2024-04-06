@@ -8,7 +8,7 @@ The standard initial simulations placed the substellar point over 180&deg;  long
 
 ## Publications
 
-* Cooke _et al_. (2023), Degenerate interpretations of O<sub>3</sub> spectral features in exoplanet atmosphere observations due to stellar UV uncertainties: a 3D case study with TRAPPIST-1e, _accepted in ApJ_
+* Cooke _et al_. (2023), Degenerate interpretations of O<sub>3</sub> spectral features in exoplanet atmosphere observations due to stellar UV uncertainties: a 3D case study with TRAPPIST-1e, _ApJ_, [https://iopscience.iop.org/article/10.3847/1538-4357/ad0381/meta](https://iopscience.iop.org/article/10.3847/1538-4357/ad0381/meta).
  
 ## TRAPPIST-1 e simulations
 
@@ -32,7 +32,7 @@ The following simulations have been used for the paper titled: 'Uncertainties fr
 | TP-1 e P19 1% PAL    | P19 spectrum | 900  | [Peacock et al. (2019)](https://archive.stsci.edu/hlsp/hazmat) | 180&deg;  longitude (Pacific ocean) | 0.010 |
 | TP-1 e P19 0.1% PAL       | P19 spectrum | 900  | [Peacock et al. (2019)](https://archive.stsci.edu/hlsp/hazmat) | 180&deg;  longitude (Pacific ocean) | 0.001 |
 | TP-1 e W21 PI       | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) | 1.000 |
-| TP-1 e W21 PI SPL       | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) | 1.000 |
+| TP-1 e W21 PI SPL       | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 30&deg;  longitude (Pacific ocean) | 1.000 |
 | TP-1 e W21 PI noTL  | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) | 1.000 |
 | TP-1 e W21 10% PAL  | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) | 0.100 |
 | TP-1 e W21 1% PAL | W21 spectrum | 900  | [Wilson et al. (2021)](https://zenodo.org/record/4556130#.Y_82yezP39E) | 180&deg;  longitude (Pacific ocean) | 0.010 |
