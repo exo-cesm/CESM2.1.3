@@ -8,9 +8,9 @@ The standard initial simulations placed the substellar point over 180&deg;  long
 
 ## Publications
 
-* Cooke _et al_. (2023), Degenerate interpretations of O<sub>3</sub> spectral features in exoplanet atmosphere observations due to stellar UV uncertainties: a 3D case study with TRAPPIST-1e, _ApJ_, [https://iopscience.iop.org/article/10.3847/1538-4357/ad0381/meta](https://iopscience.iop.org/article/10.3847/1538-4357/ad0381/meta).
 * Cooke _et al_. (2024), Lethal Surface Ozone Concentrations Are Possible on Habitable Zone Exoplanets, _Planet. Sci. J._ [https://iopscience.iop.org/article/10.3847/PSJ/ad53c3](https://iopscience.iop.org/article/10.3847/PSJ/ad53c3).
- 
+* Cooke _et al_. (2023), Degenerate interpretations of O<sub>3</sub> spectral features in exoplanet atmosphere observations due to stellar UV uncertainties: a 3D case study with TRAPPIST-1e, _ApJ_, [https://iopscience.iop.org/article/10.3847/1538-4357/ad0381/meta](https://iopscience.iop.org/article/10.3847/1538-4357/ad0381/meta).
+
 ## TRAPPIST-1 e simulations
 
 The TRAPPIST-1 e simulations assume the following parameters which can be edited in user_nl_cam:
