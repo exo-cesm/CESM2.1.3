@@ -4,9 +4,9 @@
 
 The simulations in section 1 were used in the following publications:
 
-Cooke GJ, Marsh DR, Walsh C, Black B, Lamarque J-F. 2022, A revised lower estimate of ozone columns during Earth’s oxygenated history. R. Soc. Open Sci. 9: 211165. https://doi.org/10.1098/rsos.211165.
+* G J Cooke, D R Marsh, C Walsh, S Rugheimer, G L Villanueva, Variability due to climate and chemistry in observations of oxygenated Earth-analogue exoplanets, Monthly Notices of the Royal Astronomical Society, 2022;, stac2604, https://doi.org/10.1093/mnras/stac2604.
+* Cooke GJ, Marsh DR, Walsh C, Black B, Lamarque J-F. 2022, A revised lower estimate of ozone columns during Earth’s oxygenated history. R. Soc. Open Sci. 9: 211165. https://doi.org/10.1098/rsos.211165.
 
-G J Cooke, D R Marsh, C Walsh, S Rugheimer, G L Villanueva, Variability due to climate and chemistry in observations of oxygenated Earth-analogue exoplanets, Monthly Notices of the Royal Astronomical Society, 2022;, stac2604, https://doi.org/10.1093/mnras/stac2604.
 
 ## Simulations
 
