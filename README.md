@@ -1,5 +1,5 @@
 # Code modifications in CESM2.1.3 for exoplanet and paleoclimate simulations
-## Authors: Greg Cooke (gjc53@cam.ac.uk, University of Cambridge, University of Leeds) & Dan Marsh (University of Leeds)
+## Authors: Greg Cooke (gjc53@cam.ac.uk, University of Cambridge, University of Leeds) & Dan Marsh (d.marsh@leeds.ac.uk, University of Leeds)
 
 ## Introduction
 
@@ -57,6 +57,14 @@ Since these simulations were performed, we (Dan, Greg, and Doug Kinnison) have u
 
 | Simulation name   | Description |
 | ---------------   | ----------- |
+| 10% PAL WACCM-X   | 10% PAL of O<sub>2</sub> FX2000 compset|
+| 1% PAL WACCM-X    | 1% PAL of O<sub>2</sub> FX2000 compset|
+| 0.1% PAL WACCM-X  | 0.1% PAL of O<sub>2</sub> FX2000 compset|
+
+<ins>**Table 3**</ins>
+
+| Simulation name   | Description |
+| ---------------   | ----------- |
 | 10% PAL 10x lower halogens    | 10% PAL of O<sub>2</sub> with 10x lower amounts of halogen molecules, including CH<sub>3</sub>Cl and CH<sub>3</sub>Br |
 | 1% PAL 10x lower halogens     | 1% PAL of O<sub>2</sub> with 10x lower amounts of halogen molecules, including CH<sub>3</sub>Cl and CH<sub>3</sub>Br |
 | 1% PAL 1e9x lower halogens    | 1% PAL of O<sub>2</sub> with 1e9x lower amounts of halogen molecules, including CH<sub>3</sub>Cl and CH<sub>3</sub>Br |
@@ -68,7 +76,7 @@ Since these simulations were performed, we (Dan, Greg, and Doug Kinnison) have u
 
 Instructions on how to set up these cases are found in the [Tidally\_locked\_exoplanets\_folder](/Tidally_locked_exoplanets).
 
-<ins>**Table 3**</ins>
+<ins>**Table 4**</ins>
 
 | Simulation name       | Description |
 | --------------------- | ----------- |
@@ -91,10 +99,6 @@ Instructions on how to set up these cases are found in the [Tidally\_locked\_exo
 | [PCb 0.1% PAL](/Tidally_locked_exoplanets/cases/PC_b_SSPO_01pc) | GJ551 MUSCLES spectrum, 0.1%PAL of O<sub>2</sub>, tidally locked PC b, substellar point over Pacific Ocean |
 
 The tidally locked simulations cover several cases for known M dwarf terrestrial exoplanets. The basic modifications include changing the rotation rate of the model, changing the radius and gravitational acceleration, and fixing the solar zenith angle (in order to fix the substellar point). The substellar point is placed either in the middle of the Pacific ocean at 180&deg; longitude, or at 30&deg; longitude in Africa. Additionally, depending on the exoplanet in question, the solar file will need to be changed and scaled to the irradiance that the planet recieves. The Stellar Wind and Irradiance Model ([SWIM](https://github.com/jack-eddy-symposium/exoplanetary-impact/tree/main/SWIM)) has been developed for this purpose. The TRAPPIST-1e (TP-1e) simulations were originally started in 2020. In 2021, the Mega-MUSCLES spectrum (W21) became available, so this spectrum was introduced in order to compare the differences that arise in the simulations between the two spectra. 
-
-## Other TRAPPIST-1 scenarios
-
-Coming soon
 
 ## Other exoplanet scenarios
 
