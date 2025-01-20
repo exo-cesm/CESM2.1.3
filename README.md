@@ -57,20 +57,22 @@ Since these simulations were performed, we (Dan, Greg, and Doug Kinnison) have u
 
 | Simulation name   | Description |
 | ---------------   | ----------- |
-| 10% PAL WACCM-X   | 10% PAL of O<sub>2</sub> FX2000 compset|
-| 1% PAL WACCM-X    | 1% PAL of O<sub>2</sub> FX2000 compset|
-| 0.1% PAL WACCM-X  | 0.1% PAL of O<sub>2</sub> FX2000 compset|
-
-<ins>**Table 3**</ins>
-
-| Simulation name   | Description |
-| ---------------   | ----------- |
 | 10% PAL 10x lower halogens    | 10% PAL of O<sub>2</sub> with 10x lower amounts of halogen molecules, including CH<sub>3</sub>Cl and CH<sub>3</sub>Br |
 | 1% PAL 10x lower halogens     | 1% PAL of O<sub>2</sub> with 10x lower amounts of halogen molecules, including CH<sub>3</sub>Cl and CH<sub>3</sub>Br |
 | 1% PAL 1e9x lower halogens    | 1% PAL of O<sub>2</sub> with 1e9x lower amounts of halogen molecules, including CH<sub>3</sub>Cl and CH<sub>3</sub>Br |
 | 10% PAL 1D LBC and SRB    | 10% PAL of O<sub>2</sub> with Kasting 1D model lower boundary conditions and absorption for HO<sub>2</sub>O and CO<sub>2</sub> in the Schumann-Runge Bands included |
 | 1% PAL 1D LBC and SRB   | 1% PAL of O<sub>2</sub> with Kasting 1D model lower boundary conditions and absorption for HO<sub>2</sub>O and CO<sub>2</sub> in the Schumann-Runge Bands included |
 | 0.1% PAL 1D LBC and SRB    | 0.1% PAL of O<sub>2</sub> with Kasting 1D model lower boundary conditions and absorption for HO<sub>2</sub>O and CO<sub>2</sub> in the Schumann-Runge Bands included |
+
+A small amount of WACCM-X simulations have been performed, as detailed in Table 3.
+
+<ins>**Table 3**</ins>
+
+| Simulation name   | Description |
+| ---------------   | ----------- |
+| 10% PAL WACCM-X   | 10% PAL of O<sub>2</sub> FX2000 compset|
+| 1% PAL WACCM-X    | 1% PAL of O<sub>2</sub> FX2000 compset|
+| 0.1% PAL WACCM-X  | 0.1% PAL of O<sub>2</sub> FX2000 compset|
 
 ## Tidally locked exoplanet scenarios
 
