@@ -6,8 +6,8 @@ solar_irrad_data_file = "/nobackup/Alternative_Earths/Solar_files/Proxima_Centau
 &physconst_nl
 omega = 0.000006502178685
 sday = 966320
-gravit = 12.2
-rearth = 6816970
+gravit = 9.51
+rearth = 6692157
 /
 &cam_history_nl
  avgflag_pertape                = 'A', 'I', 'A', 'A', 'A', 'A', 'A', 'A', 'I'
