@@ -14,7 +14,7 @@ The location of restarts directories will also be given and are currently on the
 If anything is unclear, please get in touch with Greg at gjc53@cam.ac.uk.
 
 ## Publications
-
+* Cooke et al. (2026), The oxygen valve on hydrogen escape since the great oxidation event, Climate of the Past [https://cp.copernicus.org/articles/22/483/2026/](https://cp.copernicus.org/articles/22/483/2026/)
 * Cooke _et al_. (2024), Lethal Surface Ozone Concentrations Are Possible on Habitable Zone Exoplanets, _Planet. Sci. J._ [https://iopscience.iop.org/article/10.3847/PSJ/ad53c3](https://iopscience.iop.org/article/10.3847/PSJ/ad53c3).
 * Cooke G. J., Marsh D. R., Walsh C., Youngblood A., 2023, Degenerate Interpretations of O<sub>3</sub> Spectral Features in Exoplanet Atmosphere Observations Due to Stellar UV Uncertainties: A 3D Case Study with TRAPPIST-1 e, _Astrophsical Journal_, [https://iopscience.iop.org/article/10.3847/1538-4357/ad0381/meta](https://iopscience.iop.org/article/10.3847/1538-4357/ad0381/meta).
 * Ji A., Kasting J. F., Cooke G. J., Marsh D. R. and Tsigaridis K. 2023, Comparison between ozone column depths and methane lifetimes computed by one- and three-dimensional models at different atmospheric O<sub>2</sub> levels, _R. Soc. open sci_, 10230056230056, [https://doi.org/10.1098/rsos.230056](https://doi.org/10.1098/rsos.230056).
